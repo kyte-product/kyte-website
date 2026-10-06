@@ -62,9 +62,7 @@ body[data-kyte-tone="light"] :is(svg[role="presentation"],svg.framer-VdeRv){colo
 
 /* The Framer glass layer fades out at the bottom while navigation stays crisp. */
 .framer-JMBgM[data-kyte-nav-tone]{background:transparent!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;padding:16px 32px 20px!important;border:0!important;box-shadow:none!important}
-.framer-JMBgM[data-kyte-nav-tone] .framer-h5p0xc{display:block!important;pointer-events:none!important;backdrop-filter:blur(12px) saturate(1.08)!important;-webkit-backdrop-filter:blur(12px) saturate(1.08)!important;mask:linear-gradient(to bottom,#000 70%,transparent 100%)!important;-webkit-mask:linear-gradient(to bottom,#000 70%,transparent 100%)!important;transition:background-color .18s ease}
-.framer-JMBgM[data-kyte-nav-tone="light"] .framer-h5p0xc{background-color:rgba(248,247,244,.82)!important}
-.framer-JMBgM[data-kyte-nav-tone="dark"] .framer-h5p0xc{background-color:rgba(15,15,15,.82)!important}
+.framer-JMBgM[data-kyte-nav-tone] .framer-h5p0xc{display:block!important;pointer-events:none!important;background:transparent!important;backdrop-filter:blur(12px) saturate(1.08)!important;-webkit-backdrop-filter:blur(12px) saturate(1.08)!important;mask:linear-gradient(to bottom,#000 70%,transparent 100%)!important;-webkit-mask:linear-gradient(to bottom,#000 70%,transparent 100%)!important}
 .framer-JMBgM[data-kyte-nav-tone="light"] svg{
  --token-988c293d-61e5-4150-a532-fdfbb31b4fe4:#242522!important;
  --21h8s6:#242522!important;color:#242522!important;
