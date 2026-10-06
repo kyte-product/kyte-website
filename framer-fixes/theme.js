@@ -2,6 +2,32 @@
 (()=>{
  const seen=new WeakSet();
  let lightRoots=[],frame=0;
+ const darkLine='#262626',lightLine='#e7e6df';
+ function syncRails(full){
+  for(const rail of document.querySelectorAll('.framer-ysavql-container .framer-Oronr :is(.framer-v0cz9a,.framer-1e04nn0)')){
+   const box=rail.getBoundingClientRect();if(!box.width||!box.height)continue;
+   let paint=full?lightLine:darkLine;
+   if(!full){
+    const sections=lightRoots.filter(el=>el!==document.body&&el.id!=='template-overlay').map(el=>el.getBoundingClientRect())
+     .filter(r=>r.width>=innerWidth*.7&&r.left<=box.left+1&&r.right>=box.right-1)
+     .map(r=>[Math.max(0,Math.round(r.top-box.top)),Math.min(Math.round(box.height),Math.round(r.bottom-box.top))])
+     .filter(([start,end])=>end>start).sort((a,b)=>a[0]-b[0]);
+    const merged=[];
+    for(const [start,end] of sections){
+     const last=merged[merged.length-1];
+     if(last&&start<=last[1])last[1]=Math.max(last[1],end);
+     else merged.push([start,end]);
+    }
+    if(merged.length){
+     const stops=[`${darkLine} 0px`];
+     for(const [start,end] of merged)stops.push(`${darkLine} ${start}px`,`${lightLine} ${start}px`,`${lightLine} ${end}px`,`${darkLine} ${end}px`);
+     stops.push(`${darkLine} ${Math.round(box.height)}px`);
+     paint=`linear-gradient(to bottom,${stops.join(',')})`;
+    }
+   }
+   if(rail.style.getPropertyValue('--kyte-rail-paint')!==paint)rail.style.setProperty('--kyte-rail-paint',paint);
+  }
+ }
  function syncNavigation(){
   frame=0;
   const full=document.body.dataset.kytePagePalette==='light';
@@ -12,6 +38,7 @@
    attr(nav,'data-kyte-nav-tone',light?'light':'dark');
    if(light)attr(nav,'data-kyte-tone','light');else nav.removeAttribute('data-kyte-tone');
   }
+  syncRails(full);
  }
  function queueNavigation(){if(!frame)frame=requestAnimationFrame(syncNavigation)}
  addEventListener('scroll',queueNavigation,{passive:true});

@@ -1,5 +1,5 @@
-/* Shared translucent hairline keeps comparable contrast on both page tones. */
-body{--kyte-hairline:rgba(132,136,124,.15);--kyte-border:var(--kyte-hairline)}
+/* Solid hairlines cannot darken when two sections meet. */
+body{--kyte-border:#262626;--kyte-rail-paint:#262626}
 body [data-border]{--border-color:var(--kyte-border)!important;border-color:var(--kyte-border)!important}
 /* Warm editorial light palette. Media and original component geometry are untouched. */
 [data-kyte-tone="light"]{
@@ -31,7 +31,7 @@ body[data-kyte-tone="light"] :is(svg[role="presentation"],svg.framer-VdeRv){colo
  --token-6b755b7e-5740-4213-bb14-458dc89906b1:#f8f7f4!important;
  --token-e6484e3f-5f80-45ea-9aa3-657d188866a5:#f8f7f4!important;
  --token-174d2277-93bd-4757-b0b2-2bfab1c4e0e9:#eeede8!important;
- --token-2cacf180-aa77-4408-91c8-95b3af73eb2b:#d8d7d0!important;
+ --token-2cacf180-aa77-4408-91c8-95b3af73eb2b:#e7e6df!important;
  --token-fdcfd503-e72d-498c-ad50-3df9e596655c:#73736b!important;
  --token-fbd6e778-d496-4899-811c-823f111b3086:#6943cb!important;
 }
@@ -72,10 +72,9 @@ body[data-kyte-tone="light"] :is(svg[role="presentation"],svg.framer-VdeRv){colo
 .framer-JMBgM[data-kyte-nav-tone="dark"] [data-kyte-cta] [data-framer-name="BG"]{background:#f8f7f4!important}
 .framer-JMBgM[data-kyte-nav-tone="dark"] [data-kyte-cta] :is(p,span){color:#242522!important;--framer-text-color:#242522!important}
 
-/* Rails, dividers and section hairlines share one low-contrast stroke. */
-.framer-Oronr :is(.framer-v0cz9a,.framer-1e04nn0),
-[data-kyte-tone="light"] .framer-Oronr :is(.framer-v0cz9a,.framer-1e04nn0),
-.framer-1dxvdhh > :is(.framer-yxwiml,.framer-1dym3ss,.framer-1hqlu5t){background-color:var(--kyte-hairline)!important}
+/* Rails, dividers and section hairlines share solid colors. */
+.framer-Oronr :is(.framer-v0cz9a,.framer-1e04nn0){background:var(--kyte-rail-paint)!important}
+.framer-1dxvdhh > :is(.framer-yxwiml,.framer-1dym3ss,.framer-1hqlu5t){background-color:var(--kyte-border)!important}
 .framer-1ott6pv > :is(.framer-c7cqx8,.framer-5cusz3,.framer-179sze3),
 [data-kyte-tone="light"] .framer-1ott6pv > :is(.framer-c7cqx8,.framer-5cusz3,.framer-179sze3){background-color:var(--kyte-border)!important}
 /* The page-long rails already pass through the footer. Its copies doubled the stroke. */
