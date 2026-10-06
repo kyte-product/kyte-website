@@ -7,7 +7,7 @@ const manifest=JSON.parse(await readFile(resolve(root,'mirror-manifest.json'),'u
 let imports=0;const origin=process.env.CHECK_ORIGIN;
 for(const url of manifest.pages){const path=new URL(url).pathname;const rel='.'+(path==='/'?'':path)+'/index.html';const original=await readFile(resolve(root,'public',rel),'utf8'),current=await readFile(resolve(root,'framer-site',rel),'utf8');
  const styles=s=>[...s.matchAll(/<style\b[^>]*>([\s\S]*?)<\/style>/g)].map(m=>m[1]);assert.deepEqual(styles(current),styles(original),path+' must preserve original Framer stylesheet');
- assert.ok(!current.includes('<title>My Framer Site</title>'));assert.ok(current.includes('kyte-fixes.js'));assert.ok(current.includes('kyte-layout-system.css'));assert.ok(current.includes('local-assets.js'));assert.ok(current.includes('script_main.BHl0p5qn.mjs'));
+ assert.ok(!current.includes('<title>My Framer Site</title>'));if(original.includes('<div class="framer-i3Mx4'))assert.ok(current.includes('kyte-page-frame'));assert.ok(current.includes('kyte-fixes.js'));assert.ok(current.includes('kyte-layout-system.css'));assert.ok(current.includes('local-assets.js'));assert.ok(current.includes('script_main.BHl0p5qn.mjs'));
  if(origin){const r=await fetch(origin+path,{redirect:'manual'});assert.equal(r.status,path==='/product-home'?301:200,path)}
 }
 const layoutCss=await readFile(resolve(root,'framer-site/kyte-layout-system.css'),'utf8');for(const token of ['--kyte-content-max:1600px','--kyte-page-gutter:clamp(22px,5vw,96px)','--kyte-grid-gap:clamp(20px,2.25vw,36px)'])assert.ok(layoutCss.includes(token),'Missing shared layout token '+token);

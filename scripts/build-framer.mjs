@@ -21,6 +21,12 @@ function extractDiv(source,attribute,value){
  while((match=tokens.exec(source))){if(match[0][1]==='/')depth--;else if(!match[0].endsWith('/>'))depth++;if(depth===0)return source.slice(start,tokens.lastIndex)}
  throw new Error(`Unclosed Framer shell element ${marker}`);
 }
+function markPageFrame(html){
+ const root=html.indexOf('<div class="framer-i3Mx4');if(root<0)return html;
+ const contentStart=html.indexOf('>',root)+1,tokens=/<\/?div\b[^>]*>/gi;tokens.lastIndex=contentStart;let depth=0,count=0,match;
+ while((match=tokens.exec(html))){if(match[0][1]==='/'){if(depth===0)break;depth--}else{if(depth===0&&++count===4){const tag=match[0].replace(/class="([^"]*)"/,(_,classes)=>`class="${classes} kyte-page-frame"`);return html.slice(0,match.index)+tag+html.slice(tokens.lastIndex)}if(!match[0].endsWith('/>'))depth++}}
+ throw new Error('Missing Framer page frame in root');
+}
 const framerSource=await readFile(resolve(root,'public/index.html'),'utf8');
 const framerSharedStyles=[...framerSource.matchAll(/<style\b[^>]*>[\s\S]*?<\/style>/gi)].filter(([block])=>/data-framer-(?:font-css|breakpoint-css|components)/i.test(block)).map(([block])=>block.replace(/^<style\b[^>]*>/i,'').replace(/<\/style>$/i,''));
 const framerShell={rails:extractDiv(framerSource,'class','framer-ysavql-container'),header:extractDiv(framerSource,'class','framer-1eevhei-container'),footer:extractDiv(framerSource,'class','framer-1fwug41-container'),symbols:extractDiv(framerSource,'id','svg-templates')};
@@ -33,6 +39,7 @@ const contentVersion=createHash('sha256').update(await readFile(resolve(root,'sc
 const versionedSites='sites-content-'+contentVersion;
 await symlink('sites',resolve(output,'assets/framerusercontent.com/'+versionedSites)).catch(e=>{if(e.code!=='EEXIST')throw e});
 for(const url of manifest.pages){let path=new URL(url).pathname.replace(/\/$/,'')||'/';const file=resolve(output,'.'+(path==='/'?'':path),'index.html');let html=await readFile(file,'utf8');
+ html=markPageFrame(html);
  const meta=pages[path]||{title:'Product & UI/UX Design · Kyte',description:'Explore product and website design with Kyte.',canonical:origin+path};
  html=html.replace(/<title>[\s\S]*?<\/title>/i,`<title>${esc(meta.title)}</title>`);
  html=html.replace(/<meta\s+(?:name|property)="(?:description|og:title|og:description|og:image|og:url|twitter:title|twitter:description|twitter:image|robots)"[^>]*>/gi,'').replace(/<link[^>]+rel="canonical"[^>]*>/gi,'');
