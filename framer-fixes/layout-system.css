@@ -12,6 +12,7 @@ html,body{max-width:100%;overflow-x:clip}
 #main{width:100%;max-width:var(--kyte-frame-max);margin-inline:auto;overflow-x:clip}
 #main>.framer-i3Mx4>.kyte-page-frame,
 #main>.framer-i3Mx4>:nth-child(4){
+  display:flex!important;
   width:100%!important;
   max-width:var(--kyte-frame-max)!important;
   min-width:0!important;
