@@ -36,7 +36,13 @@ for(const url of manifest.pages){let path=new URL(url).pathname.replace(/\/$/,''
 }
 await writeFile(resolve(output,'kyte-config.js'),'window.KYTE_FIXES='+JSON.stringify(fixes).replaceAll('<','\\u003c')+';');
 for(const [source,dest]of [['theme.js','kyte-theme.js'],['theme.css','kyte-theme.css'],['service-content.js','kyte-service-content.js'],['enhancements.js','kyte-fixes.js'],['repairs.css','kyte-fixes.css']])await cp(resolve(root,'framer-fixes',source),resolve(output,dest));
+// The design system lives outside the normal Framer route manifest, while
+// remaining available as a public, indexable HTML reference page.
+const designSystemDir=resolve(output,'.','design-system');await mkdir(designSystemDir,{recursive:true});
+const designSystemHtml=(await readFile(resolve(root,'framer-fixes/design-system.html'),'utf8')).replaceAll('{{SITE_URL}}',origin);
+await writeFile(resolve(designSystemDir,'index.html'),designSystemHtml);
+await cp(resolve(root,'framer-fixes/design-system.css'),resolve(output,'kyte-design-system.css'));
 await writeFile(resolve(output,'robots.txt'),`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);
-await writeFile(resolve(output,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${manifest.pages.map(u=>new URL(u).pathname).filter(p=>p!='/product-home').map(p=>`<url><loc>${origin+p}</loc></url>`).join('')}</urlset>`);
+await writeFile(resolve(output,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${[...manifest.pages.map(u=>new URL(u).pathname).filter(p=>p!='/product-home'),'/design-system'].map(p=>`<url><loc>${origin+p}</loc></url>`).join('')}</urlset>`);
 await writeFile(resolve(output,'build-info.json'),JSON.stringify({mode:'framer-components',production,pages:manifest.pages.length,patchedModules:modifiedModules},null,2));
 console.log(`Built ${manifest.pages.length} pages from original Framer components. ${modifiedModules} modules have contact-text corrections. Original capture remains untouched.`);

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="googlebot" content="index,follow,max-image-preview:large">
+  <meta name="description" content="The Kyte design system: shared colors, type, surfaces, components and layout guidance.">
+  <link rel="canonical" href="{{SITE_URL}}/design-system">
+  <link rel="stylesheet" href="/kyte-design-system.css">
+  <title>Design System · Kyte</title>
+</head>
+<body data-mode="dark">
+  <header class="ds-nav">
+    <a class="ds-brand" href="/" aria-label="Kyte home"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M0 0H18V18ZM22 0H40L22 18ZM40 22V40L22 22ZM18 22V40H0Z" fill="currentColor"/></svg><span>kyte <small>INTERNAL DESIGN SYSTEM</small></span></a>
+    <div class="nav-actions"><a href="/">Back to website <span aria-hidden="true">↗</span></a><button id="mode-toggle" type="button" aria-pressed="false">Switch to light</button></div>
+  </header>
+  <main>
+    <section class="ds-hero">
+      <p class="eyebrow">KYTE / DESIGN SYSTEM / 01</p>
+      <h1>A shared language<br>for the <span>work.</span></h1>
+      <div class="hero-note"><p>This page records the visual rules to use when designing or building Kyte pages. It is a working reference for the team, not a public landing page.</p><span class="status"><i></i>Internal reference · v1.0</span></div>
+    </section>
+    <section class="ds-section" id="principles">
+      <div class="section-head"><p class="eyebrow">00 / PRINCIPLES</p><h2>Quiet structure.<br>Expressive work.</h2></div>
+      <div class="principles"><article><b>01</b><h3>Let the work lead</h3><p>Use generous space and restrained surfaces so imagery, type and ideas have room to speak.</p></article><article><b>02</b><h3>One system, two modes</h3><p>Dark is the expressive default. Use full light mode for work and case-study reading where it improves focus.</p></article><article><b>03</b><h3>Lines stay consistent</h3><p>Use one solid border token per mode. Avoid white borders with opacity; overlaps can make them look uneven.</p></article></div>
+    </section>
+    <section class="ds-section" id="color">
+      <div class="section-head"><p class="eyebrow">01 / COLOR</p><h2>Color with a job.</h2><p>Use semantic tokens instead of choosing a new shade for each component. Use the toggle above to preview both modes.</p></div>
+      <div class="palette-grid">
+        <article class="palette-card"><div class="palette-title"><span>Dark mode</span><small>DEFAULT / EXPRESSIVE PAGES</small></div><div class="swatch-row"><i class="swatch" style="--swatch:#000000"></i><div><b>Canvas</b><code>#000000</code></div></div><div class="swatch-row"><i class="swatch" style="--swatch:#0A0A0A"></i><div><b>Raised surface</b><code>#0A0A0A</code></div></div><div class="swatch-row"><i class="swatch" style="--swatch:#141414"></i><div><b>Panel</b><code>#141414</code></div></div><div class="swatch-row"><i class="swatch" style="--swatch:#262626"></i><div><b>Border</b><code>#262626</code></div></div><div class="swatch-row"><i class="swatch" style="--swatch:#F8F7F4"></i><div><b>Primary text</b><code>#F8F7F4</code></div></div><div class="swatch-row"><i class="swatch" style="--swatch:#8C8C8C"></i><div><b>Secondary text</b><code>#8C8C8C</code></div></div></article>
+        <article class="palette-card light-card"><div class="palette-title"><span>Light mode</span><small>WORK / EDITORIAL PAGES</small></div><div class="swatch-row"><i class="swatch" style="--swatch:#F8F7F4"></i><div><b>Canvas</b><code>#F8F7F4</code></div></div><div class="swatch-row"><i class="swatch" style="--swatch:#EFEEE9"></i><div><b>Raised surface</b><code>#EFEEE9</code></div></div><div class="swatch-row"><i class="swatch" style="--swatch:#FFFFFF"></i><div><b>Panel / control</b><code>#FFFFFF</code></div></div><div class="swatch-row"><i class="swatch" style="--swatch:#E7E6DF"></i><div><b>Border</b><code>#E7E6DF</code></div></div><div class="swatch-row"><i class="swatch" style="--swatch:#242522"></i><div><b>Primary text</b><code>#242522</code></div></div><div class="swatch-row"><i class="swatch" style="--swatch:#63655E"></i><div><b>Secondary text</b><code>#63655E</code></div></div></article>
+      </div>
+      <div class="accent-note"><i></i><div><b>Accent color</b><p>Use the existing Kyte violet <code>#6943CB</code> for keyboard focus and clear interaction feedback. Keep it out of large decorative surfaces.</p></div></div>
+      <p class="small-note">Existing Framer pages contain additional legacy component shades. When touching those components, map them to these tokens unless the artwork itself needs a distinct color.</p>
+    </section>
+    <section class="ds-section" id="type">
+      <div class="section-head"><p class="eyebrow">02 / TYPOGRAPHY</p><h2>Clear, measured type.</h2><p>Use the site’s loaded Telegraf family with a sans-serif fallback. Let the headline scale fluidly and keep supporting copy easy to scan.</p></div>
+      <div class="type-specimen"><div class="type-meta"><span>DISPLAY / H1</span><code>clamp(48px, 8vw, 120px) · 1.0</code></div><h3 class="type-display">Design for<br>what’s next.</h3></div>
+      <div class="type-pair"><div><div class="type-meta"><span>SECTION / H2</span><code>clamp(36px, 4.3vw, 64px) · 1.08</code></div><h3 class="type-h2">Make the complex feel clear.</h3></div><div><div class="type-meta"><span>BODY</span><code>16–18px · 1.6</code></div><p>Use body copy to add context and make the next step clear. Keep line lengths comfortable and avoid low contrast in either theme.</p></div></div>
+      <div class="type-meta eyebrow-sample"><span>EYEBROW / LABEL</span><code>11px · uppercase · 0.14em tracking</code></div>
+    </section>
+    <section class="ds-section" id="surfaces">
+      <div class="section-head"><p class="eyebrow">03 / SURFACES & LINES</p><h2>Soft edges.<br>Solid color.</h2><p>Layer surfaces by a small, intentional step. Give every divider the same full-opacity shade within its theme.</p></div>
+      <div class="surface-demo"><div class="surface-base"><span>CANVAS</span><div class="surface-panel"><span>RAISED PANEL</span><p>Panel content sits one step above the canvas.</p><div class="sample-control">Input or card edge</div></div></div><div class="line-rules"><div><span>Section divider</span><i></i><code>1px solid border token</code></div><div><span>Card outline</span><i class="outline-sample"></i><code>1px solid border token</code></div><div><span>Navigation glass</span><i class="blur-sample"></i><code>Transparent · blur fades at bottom</code></div></div></div>
+      <p class="small-note">Do not use translucent white for borders or stack different border shades on shared edges. Use the theme’s border color at full opacity.</p>
+    </section>
+    <section class="ds-section" id="components">
+      <div class="section-head"><p class="eyebrow">04 / COMPONENTS</p><h2>Repeat the useful parts.</h2><p>Keep component shape, spacing and interaction states predictable. Let imagery provide the personality.</p></div>
+      <div class="component-grid"><article class="component-card"><p class="eyebrow">BUTTONS</p><div class="button-demo"><a class="primary-button" href="#components">Start a project <span>↗</span></a><a class="text-button" href="#principles">Explore the work <span>↗</span></a></div><p class="component-caption">Square corners · clear label · visible focus state</p></article><article class="component-card"><p class="eyebrow">SERVICE / WORK CARD</p><div class="work-sample"><span class="work-art"><b>K</b></span><div class="work-caption"><div><small>PRODUCT DESIGN</small><h3>Made to matter.</h3></div><span>↗</span></div></div></article><article class="component-card"><p class="eyebrow">FORM FIELD</p><label class="field-label">Your email<input type="email" placeholder="name@company.com"></label><p class="component-caption">Solid surface · full-opacity border · clear focus ring</p></article></div>
+    </section>
+    <section class="ds-section" id="layout">
+      <div class="section-head"><p class="eyebrow">05 / LAYOUT & MOTION</p><h2>Room to think.</h2></div>
+      <div class="principles layout-grid"><article><b>GUTTER</b><h3>24–120px</h3><p>Scale page edges with viewport width. Keep at least 24px on small screens.</p></article><article><b>SECTION SPACE</b><h3>64–128px</h3><p>Use generous vertical rhythm, reducing it on compact screens.</p></article><article><b>MOTION</b><h3>200–500ms</h3><p>Use motion to clarify state or focus. Respect reduced-motion preferences.</p></article></div>
+      <div class="closing-note"><span class="closing-mark">K</span><p>When adding a new component, start with these tokens. Add a new one only when an existing token cannot express the intended role.</p></div>
+    </section>
+  </main>
+  <footer class="ds-footer"><span>KYTE / DESIGN SYSTEM</span><a href="/">Return to Kyte ↗</a><span>Internal reference · Not for search</span></footer>
+  <script>const b=document.body,t=document.querySelector('#mode-toggle');t.addEventListener('click',()=>{const light=b.dataset.mode!=='light';b.dataset.mode=light?'light':'dark';t.setAttribute('aria-pressed',String(light));t.textContent=light?'Switch to dark':'Switch to light'});</script>
+</body>
+</html>
