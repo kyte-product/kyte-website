@@ -1,6 +1,21 @@
 /* Page and section palettes layered over the original Framer components. */
 (()=>{
  const seen=new WeakSet();
+ let lightRoots=[],frame=0;
+ function syncNavigation(){
+  frame=0;
+  const full=document.body.dataset.kytePagePalette==='light';
+  for(const nav of document.querySelectorAll('.framer-JMBgM')){
+   const box=nav.getBoundingClientRect();if(!box.width)continue;
+   const sample=Math.min(64,box.top+box.height/2);
+   const light=full||lightRoots.some(el=>{const r=el.getBoundingClientRect();return r.width>0&&r.top<=sample&&r.bottom>sample});
+   attr(nav,'data-kyte-nav-tone',light?'light':'dark');
+   if(light)attr(nav,'data-kyte-tone','light');else nav.removeAttribute('data-kyte-tone');
+  }
+ }
+ function queueNavigation(){if(!frame)frame=requestAnimationFrame(syncNavigation)}
+ addEventListener('scroll',queueNavigation,{passive:true});
+ addEventListener('resize',queueNavigation,{passive:true});
  const attr=(el,name,value)=>{if(el.getAttribute(name)!==value)el.setAttribute(name,value)};
  function surfaces(root){
   for(const el of [root,...root.querySelectorAll('*')]){
@@ -20,13 +35,15 @@
   const path=location.pathname;
   const full=path!=='/'&&!path.startsWith('/services')&&path!=='/product-home';
   const roots=full?[document.body]:[];
+  const dialog=document.querySelector('#template-overlay');if(dialog)roots.push(dialog);
   if(path==='/')for(const selector of ['.framer-b68tl','.framer-6mt1ho','.framer-v5qnca'])document.querySelectorAll(selector).forEach(el=>roots.push(el));
   if(path==='/services')for(const a of document.querySelectorAll('a[href*="/services/"]'))if(a.querySelector('h2')&&['0','2'].includes(a.style.getPropertyValue('--kyte-service-order')))roots.push(a);
   if(path.startsWith('/services/'))for(const selector of ['.framer-wryxz5','.framer-1y2xesg','.framer-1wze0gd','.framer-q2hgw4','.framer-1drfh0q'])document.querySelectorAll(selector).forEach(el=>roots.push(el));
-  for(const el of document.querySelectorAll('a,button'))if(['Start a Project','Get started','Contact Us','View All Services'].includes(el.textContent.trim()))attr(el,'data-kyte-cta','');
+  for(const el of document.querySelectorAll('a,button'))if(el.matches('button[type="submit"]')||['Start a Project','Get started','Contact Us','View All Services','View Service','View All News','View Project'].includes(el.textContent.trim()))attr(el,'data-kyte-cta','');
   // Scan before applying tokens so hardcoded original surfaces can be identified.
   for(const root of roots){surfaces(root);attr(root,'data-kyte-tone','light')}
   if(!full)document.body.removeAttribute('data-kyte-tone');
   attr(document.body,'data-kyte-page-palette',full?'light':'mixed');
+  lightRoots=roots;queueNavigation();
  };
 })();

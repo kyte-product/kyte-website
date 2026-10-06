@@ -40,3 +40,82 @@ body[data-kyte-tone="light"] :is(svg[role="presentation"],svg.framer-VdeRv){colo
 @media(max-width:600px){
  body[data-kyte-page="/work"] .framer-wt6p1c{grid-template-columns:minmax(0,1fr)!important}
 }
+
+/* Surface hierarchy: warm canvas, distinct panels and readable controls. */
+[data-kyte-tone="light"]{--kyte-ink:#242522;--kyte-muted:#63655e;--kyte-border:#dedfd8}
+[data-kyte-tone="light"] [data-kyte-surface="card"]{background-color:#efefe9!important}
+[data-kyte-tone="light"] [data-border]{--border-color:#dedfd8!important;border-color:#dedfd8!important}
+[data-kyte-tone="light"] [data-framer-name="Service Card"] svg{
+ --token-2cacf180-aa77-4408-91c8-95b3af73eb2b:#777b70!important;
+ --token-174d2277-93bd-4757-b0b2-2bfab1c4e0e9:#777b70!important;
+ color:#777b70!important;
+}
+[data-kyte-tone="light"] [data-kyte-cta]{background:#242522!important;color:#fff!important;transition:background-color .2s ease,box-shadow .2s ease}
+[data-kyte-tone="light"] [data-kyte-cta] [data-framer-name="BG"]{background:#242522!important}
+[data-kyte-tone="light"] [data-kyte-cta] :is(p,span,div){--framer-text-color:#fff!important}
+[data-kyte-tone="light"] [data-kyte-cta]:hover,
+[data-kyte-tone="light"] [data-kyte-cta]:hover [data-framer-name="BG"]{background:#42463d!important}
+[data-kyte-tone="light"] [data-kyte-cta] [data-framer-name="Gradient"]{display:none!important}
+
+/* Fixed navigation follows the section passing beneath it. */
+.framer-JMBgM[data-kyte-nav-tone]{transition:background-color .18s ease,box-shadow .18s ease;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.framer-JMBgM[data-kyte-nav-tone="light"]{background:rgba(248,247,244,.96)!important;box-shadow:0 1px 0 rgba(36,37,34,.09)}
+.framer-JMBgM[data-kyte-nav-tone="dark"]{background:rgba(15,15,15,.94)!important;box-shadow:0 1px 0 rgba(255,255,255,.09)}
+.framer-JMBgM[data-kyte-nav-tone] .framer-h5p0xc{display:none!important}
+.framer-JMBgM[data-kyte-nav-tone="light"] svg{
+ --token-988c293d-61e5-4150-a532-fdfbb31b4fe4:#242522!important;
+ --21h8s6:#242522!important;color:#242522!important;
+}
+.framer-JMBgM[data-kyte-nav-tone="light"] .framer-1ukh27e{color:#242522!important}
+.framer-JMBgM[data-kyte-nav-tone="dark"]{color-scheme:dark}
+.framer-JMBgM[data-kyte-nav-tone="dark"] [data-kyte-cta] [data-framer-name="BG"]{background:#f8f7f4!important}
+.framer-JMBgM[data-kyte-nav-tone="dark"] [data-kyte-cta] :is(p,span){color:#242522!important;--framer-text-color:#242522!important}
+
+/* The shared outer rails are decoration, never black borders on light sections. */
+.framer-Oronr :is(.framer-v0cz9a,.framer-1e04nn0),
+[data-kyte-tone="light"] .framer-Oronr :is(.framer-v0cz9a,.framer-1e04nn0){background-color:rgba(132,136,124,.22)!important}
+/* Use the platform cursor: the original oversized dot obscures labels and links. */
+.framer-HRWL5{display:none!important}
+html body,html body *{cursor:auto}
+html body :is(a,button,[role="button"],[data-highlight="true"]),html body :is(a,button,[role="button"],[data-highlight="true"]) *{cursor:pointer}
+html body :is(input,textarea){cursor:text}
+@media(prefers-reduced-motion:reduce){.framer-JMBgM[data-kyte-nav-tone],[data-kyte-cta]{transition:none!important}}
+/* Distinct service panels, with a stable rhythm across all four cards. */
+[data-kyte-tone="light"] [data-framer-name="Service Card"]{height:560px!important}
+[data-kyte-tone="light"] [data-framer-name="Service Card"] > [data-framer-name="Front"]{height:100%!important}
+[data-kyte-tone="light"] [data-framer-name="Service Card"] > [data-framer-name="Back"]{height:100%!important;background:#fff!important;box-shadow:inset 0 0 0 1px #dedfd8;gap:20px!important}
+[data-kyte-tone="light"] [data-framer-name="Service Card"] > [data-framer-name="Back"] > :nth-child(2){min-height:62px}
+[data-kyte-tone="light"] [data-framer-name="Service Card"] > [data-framer-name="Back"] > :nth-child(3){justify-content:flex-end!important}
+html body,html body *{cursor:auto!important}
+html body :is(a,button,[role="button"],[data-highlight="true"]),html body :is(a,button,[role="button"],[data-highlight="true"]) *{cursor:pointer!important}
+html body :is(input,textarea){cursor:text!important}
+[id]{scroll-margin-top:112px}
+html body.framer-cursor-none,html body.framer-cursor-none *{cursor:auto!important}
+html body.framer-cursor-none :is(a,button,[role="button"],[data-highlight="true"]),html body.framer-cursor-none :is(a,button,[role="button"],[data-highlight="true"]) *{cursor:pointer!important}
+html body.framer-cursor-none :is(input,textarea){cursor:text!important}
+.framer-JMBgM[data-kyte-nav-tone]{transition:box-shadow .18s ease}
+/* Forms share one readable surface system, including the global project dialog. */
+[data-kyte-tone="light"] .framer-form-input-wrapper{background:#fff!important;border:1px solid #d1d4c9!important;min-height:48px!important;height:auto!important;border-radius:4px;overflow:hidden!important}
+[data-kyte-tone="light"] :is(input,textarea){box-sizing:border-box!important;padding:12px 14px!important;min-height:48px!important;font-size:16px!important;line-height:1.5!important}
+[data-kyte-tone="light"] textarea{min-height:120px!important}
+[data-kyte-tone="light"] .framer-form-input-wrapper:focus-within{border-color:#666f59!important;box-shadow:0 0 0 3px rgba(102,111,89,.14)}
+#template-overlay canvas{opacity:.05!important}
+#template-overlay .framer-qtocfi-container{display:none!important}
+.framer-cursor-none.framer-cursor-none,.framer-cursor-none.framer-cursor-none *{cursor:auto!important}
+.framer-cursor-none.framer-cursor-none :is(a,button,[role="button"],[data-highlight="true"]),.framer-cursor-none.framer-cursor-none :is(a,button,[role="button"],[data-highlight="true"]) *{cursor:pointer!important}
+.framer-cursor-none.framer-cursor-none :is(input,textarea){cursor:text!important}
+@media(max-width:600px){
+ body[data-kyte-page="/work"] .framer-wco7zz{flex-wrap:nowrap!important;overflow-x:auto!important;justify-content:flex-start!important;max-width:100%;padding:4px 0 12px!important;scrollbar-width:thin}
+ body[data-kyte-page="/work"] .framer-wco7zz > *{flex-shrink:0!important}
+ body[data-kyte-page="/work"] .framer-wco7zz h5{white-space:nowrap}
+}
+@media(max-width:1100px){
+ .framer-gq78mn{width:100%!important;padding:28px 20px!important;height:auto!important;min-height:0!important}
+ .framer-gq78mn .framer-wf8izl{flex-direction:column!important;width:100%!important;gap:28px!important}
+ .framer-gq78mn .framer-wf8izl>div,.framer-gq78mn form{width:100%!important;min-width:0!important;flex:none!important}
+ .framer-gq78mn form{padding:24px!important}
+ .framer-gq78mn form>label{flex-direction:column!important;align-items:stretch!important;gap:8px!important}
+ .framer-gq78mn form>label>div{width:100%!important;flex:none!important}
+ .framer-gq78mn div:has(>.framer-dajad7){flex-wrap:wrap!important}
+ .framer-gq78mn .framer-qtocfi-container{display:none!important}
+}
