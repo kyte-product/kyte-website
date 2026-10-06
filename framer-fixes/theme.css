@@ -1,5 +1,5 @@
-/* Shared hairline palette, tuned to each surface without changing component geometry. */
-body{--kyte-border:rgba(255,255,255,.11)}
+/* Shared translucent hairline keeps comparable contrast on both page tones. */
+body{--kyte-hairline:rgba(132,136,124,.15);--kyte-border:var(--kyte-hairline)}
 body [data-border]{--border-color:var(--kyte-border)!important;border-color:var(--kyte-border)!important}
 /* Warm editorial light palette. Media and original component geometry are untouched. */
 [data-kyte-tone="light"]{
@@ -60,11 +60,11 @@ body[data-kyte-tone="light"] :is(svg[role="presentation"],svg.framer-VdeRv){colo
 [data-kyte-tone="light"] [data-kyte-cta]:hover [data-framer-name="BG"]{background:#42463d!important}
 [data-kyte-tone="light"] [data-kyte-cta] [data-framer-name="Gradient"]{display:none!important}
 
-/* Fixed navigation follows the section passing beneath it. */
-.framer-JMBgM[data-kyte-nav-tone]{transition:background-color .18s ease;backdrop-filter:blur(12px) saturate(1.08);-webkit-backdrop-filter:blur(12px) saturate(1.08);border:0!important;box-shadow:none!important}
-.framer-JMBgM[data-kyte-nav-tone="light"]{background:rgba(248,247,244,.78)!important}
-.framer-JMBgM[data-kyte-nav-tone="dark"]{background:rgba(15,15,15,.78)!important}
-.framer-JMBgM[data-kyte-nav-tone] .framer-h5p0xc{display:none!important}
+/* The Framer glass layer fades out at the bottom while navigation stays crisp. */
+.framer-JMBgM[data-kyte-nav-tone]{background:transparent!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;padding:16px 32px 20px!important;border:0!important;box-shadow:none!important}
+.framer-JMBgM[data-kyte-nav-tone] .framer-h5p0xc{display:block!important;pointer-events:none!important;backdrop-filter:blur(12px) saturate(1.08)!important;-webkit-backdrop-filter:blur(12px) saturate(1.08)!important;mask:linear-gradient(to bottom,#000 70%,transparent 100%)!important;-webkit-mask:linear-gradient(to bottom,#000 70%,transparent 100%)!important;transition:background-color .18s ease}
+.framer-JMBgM[data-kyte-nav-tone="light"] .framer-h5p0xc{background-color:rgba(248,247,244,.82)!important}
+.framer-JMBgM[data-kyte-nav-tone="dark"] .framer-h5p0xc{background-color:rgba(15,15,15,.82)!important}
 .framer-JMBgM[data-kyte-nav-tone="light"] svg{
  --token-988c293d-61e5-4150-a532-fdfbb31b4fe4:#242522!important;
  --21h8s6:#242522!important;color:#242522!important;
@@ -74,9 +74,14 @@ body[data-kyte-tone="light"] :is(svg[role="presentation"],svg.framer-VdeRv){colo
 .framer-JMBgM[data-kyte-nav-tone="dark"] [data-kyte-cta] [data-framer-name="BG"]{background:#f8f7f4!important}
 .framer-JMBgM[data-kyte-nav-tone="dark"] [data-kyte-cta] :is(p,span){color:#242522!important;--framer-text-color:#242522!important}
 
-/* The shared outer rails are decoration, never black borders on light sections. */
+/* Rails, dividers and section hairlines share one low-contrast stroke. */
 .framer-Oronr :is(.framer-v0cz9a,.framer-1e04nn0),
-[data-kyte-tone="light"] .framer-Oronr :is(.framer-v0cz9a,.framer-1e04nn0){background-color:rgba(132,136,124,.15)!important}
+[data-kyte-tone="light"] .framer-Oronr :is(.framer-v0cz9a,.framer-1e04nn0),
+.framer-1dxvdhh > :is(.framer-yxwiml,.framer-1dym3ss,.framer-1hqlu5t){background-color:var(--kyte-hairline)!important}
+.framer-1ott6pv > :is(.framer-c7cqx8,.framer-5cusz3,.framer-179sze3),
+[data-kyte-tone="light"] .framer-1ott6pv > :is(.framer-c7cqx8,.framer-5cusz3,.framer-179sze3){background-color:var(--kyte-border)!important}
+/* The page-long rails already pass through the footer. Its copies doubled the stroke. */
+.framer-sdizq .framer-Oronr :is(.framer-v0cz9a,.framer-1e04nn0){opacity:0!important}
 /* Use the platform cursor: the original oversized dot obscures labels and links. */
 .framer-HRWL5{display:none!important}
 html body,html body *{cursor:auto}
