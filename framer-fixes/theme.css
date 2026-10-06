@@ -119,3 +119,9 @@ html body.framer-cursor-none :is(input,textarea){cursor:text!important}
  .framer-gq78mn div:has(>.framer-dajad7){flex-wrap:wrap!important}
  .framer-gq78mn .framer-qtocfi-container{display:none!important}
 }
+@media(max-width:1399px){
+ [data-kyte-tone="light"].framer-b68tl .framer-1bmsocv{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:24px!important;height:auto!important}
+ [data-kyte-tone="light"].framer-b68tl .framer-1bmsocv > div,
+ [data-kyte-tone="light"].framer-b68tl .framer-1bmsocv > div > div{height:560px!important;min-height:0!important;width:100%!important;aspect-ratio:auto!important;transform:none!important;position:relative!important;inset:auto!important}
+}
+@media(max-width:809px){[data-kyte-tone="light"].framer-b68tl .framer-1bmsocv{grid-template-columns:minmax(0,1fr)!important}}
