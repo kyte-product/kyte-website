@@ -1,0 +1,42 @@
+/* Warm editorial light palette. Media and original component geometry are untouched. */
+[data-kyte-tone="light"]{
+ color-scheme:light;
+ background-color:#f8f7f4!important;color:#20201e!important;
+
+}
+[data-kyte-tone="light"] [data-kyte-surface="base"]{background-color:#f8f7f4!important}
+[data-kyte-tone="light"] [data-kyte-surface="card"]{background-color:#eeede8!important}
+[data-kyte-tone="light"] :is(h1,h2,h3,h4,h5,h6,p,a,span,button,label,li,input,textarea),
+[data-kyte-tone="light"] .line-mask-split *{color:#20201e!important;--framer-text-color:#20201e!important;-webkit-text-fill-color:currentColor}
+[data-kyte-tone="light"] :is(p,li){color:#55564f!important;--framer-text-color:#55564f!important}
+[data-kyte-tone="light"] [data-border]{--border-color:#d8d7d0!important;border-color:#d8d7d0!important}
+[data-kyte-tone="light"] [data-kyte-gradient]{background-image:none!important}
+[data-kyte-tone="light"] [data-kyte-pattern]{opacity:.09!important}
+[data-kyte-tone="light"] :is(input,textarea,select){background:#fff!important;border-color:#cecec5!important;color:#20201e!important}
+[data-kyte-tone="light"] :is(input,textarea)::placeholder{color:#707067!important;opacity:1}
+[data-kyte-tone="light"] [data-kyte-surface="button"]{background-color:#e5e3db!important;color:#20201e!important}
+[data-kyte-tone="light"] :is(a,button):focus-visible{outline:2px solid #6943cb!important;outline-offset:5px}
+[data-kyte-tone="light"] ::selection{background:#dbd1f7;color:#20201e}
+/* The monochrome identity and navigation marks need an ink version on light pages. */
+body[data-kyte-tone="light"] :is(svg[role="presentation"],svg.framer-VdeRv){color:#20201e!important}
+
+
+[data-kyte-tone="light"], [data-kyte-tone="light"] *{
+ --token-988c293d-61e5-4150-a532-fdfbb31b4fe4:#20201e!important;
+ --token-262ecc22-57b7-472d-83d9-e78a1e1f93a7:#20201e!important;
+ --token-4bbe56bd-de6e-4629-b40a-f112c36ea3ea:#62625b!important;
+ --token-6b755b7e-5740-4213-bb14-458dc89906b1:#f8f7f4!important;
+ --token-e6484e3f-5f80-45ea-9aa3-657d188866a5:#f8f7f4!important;
+ --token-174d2277-93bd-4757-b0b2-2bfab1c4e0e9:#eeede8!important;
+ --token-2cacf180-aa77-4408-91c8-95b3af73eb2b:#d8d7d0!important;
+ --token-fdcfd503-e72d-498c-ad50-3df9e596655c:#73736b!important;
+ --token-fbd6e778-d496-4899-811c-823f111b3086:#6943cb!important;
+}
+
+
+[data-kyte-tone="light"] [data-kyte-cta],
+[data-kyte-tone="light"] [data-kyte-cta] [data-framer-name="BG"]{background:#20201e!important}
+[data-kyte-tone="light"] [data-kyte-cta] :is(p,span){color:#fff!important;--framer-text-color:#fff!important}
+@media(max-width:600px){
+ body[data-kyte-page="/work"] .framer-wt6p1c{grid-template-columns:minmax(0,1fr)!important}
+}

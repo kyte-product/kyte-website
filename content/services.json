@@ -1,0 +1,874 @@
+[
+  {
+    "id": "product",
+    "slug": "product-ui-ux-design",
+    "name": "Product & UI/UX Design",
+    "line": "Make complex things feel simple.",
+    "headline": "Website and UI/UX design for clearer digital products.",
+    "summary": "From the first user flow to the final screen, we help you design and build websites and digital experiences that people understand.",
+    "description": "Work with Kyte on website design, UX research, interface systems and prototypes. Explore our digital product work for teams in India and beyond.",
+    "scope": [
+      [
+        "Research & product strategy",
+        "Understand the people using your product, map their journeys and decide what the experience needs to do."
+      ],
+      [
+        "UI & design systems",
+        "Bring clarity to your screens with consistent components, responsive layouts and considered interaction states."
+      ],
+      [
+        "Working prototypes",
+        "Explore real flows early. Test the direction, gather feedback and resolve important questions before the full build."
+      ],
+      [
+        "Website build & handover",
+        "Take an agreed website scope into Framer or collaborate with your developers, with clear specifications and a considered handover."
+      ]
+    ],
+    "steps": [
+      [
+        "Understand",
+        "Start with your business, users and the problem to solve."
+      ],
+      [
+        "Make it tangible",
+        "Turn the direction into flows and working prototypes you can review."
+      ],
+      [
+        "Refine the system",
+        "Resolve the details across screens, states and devices."
+      ],
+      [
+        "Build & verify",
+        "Carry the design into implementation and check how it works."
+      ]
+    ],
+    "fit": [
+      "You're preparing to launch a digital product.",
+      "Your website no longer explains what you do.",
+      "Your product has grown, but its experience feels fragmented.",
+      "Your team needs a design partner for the next release."
+    ],
+    "proof": [
+      "ogale-machines-design-development",
+      "collectbee-website",
+      "accountify-website"
+    ],
+    "reasons": [
+      [
+        "From idea to implementation",
+        "Website cases show how we carry an interface through to a working build."
+      ],
+      [
+        "A system your team can use",
+        "Components, interaction states and handover are part of the conversation from the start."
+      ],
+      [
+        "Something to respond to early",
+        "Working prototypes make feedback specific, so the next decision is easier to make."
+      ],
+      [
+        "Clear from the start",
+        "Deliverables, responsibilities and review stages are agreed around your brief."
+      ]
+    ],
+    "faqs": [
+      [
+        "Do you design and build?",
+        "We design digital products and build websites, including Framer projects. Application engineering and any specialist integrations are scoped with your team before work starts."
+      ],
+      [
+        "Can you work with our developers?",
+        "Yes. We can work alongside your developers, with designs, components and interaction details shaped around the agreed implementation."
+      ],
+      [
+        "Is a working prototype a production app?",
+        "No. A prototype helps you explore and test the experience. Production engineering, security, integrations and release testing need their own agreed scope."
+      ],
+      [
+        "Can you improve an existing product?",
+        "Yes. We can start with the existing flows, identify the areas that need attention and agree a focused redesign scope."
+      ],
+      [
+        "What affects timing and cost?",
+        "The number and complexity of flows, research needs, content readiness, integrations and build scope all matter. Share your brief so we can define the work together."
+      ],
+      [
+        "How do we get started?",
+        "Tell us what you are working on, what needs to change and any dates or constraints. We will review the brief with you and agree the scope, deliverables and next steps."
+      ]
+    ],
+    "deliverables": [
+      {
+        "title": "Research outputs",
+        "items": [
+          [
+            "Audience priorities",
+            "The people, needs and tasks the experience must support."
+          ],
+          [
+            "Journey maps",
+            "The steps users take and the moments that need attention."
+          ],
+          [
+            "Content structure",
+            "A clear hierarchy for pages, information and actions."
+          ],
+          [
+            "Success criteria",
+            "An agreed definition of what the design needs to improve."
+          ]
+        ]
+      },
+      {
+        "title": "Interface foundations",
+        "items": [
+          [
+            "Visual direction",
+            "A considered starting point for the look and feel."
+          ],
+          [
+            "Reusable components",
+            "Patterns that keep common actions consistent."
+          ],
+          [
+            "Responsive layouts",
+            "Screens designed around the devices in scope."
+          ],
+          [
+            "Interaction states",
+            "Guidance for loading, empty, error and success moments."
+          ]
+        ]
+      },
+      {
+        "title": "Prototype toolkit",
+        "items": [
+          [
+            "Core journeys",
+            "Connected screens that make the main tasks tangible."
+          ],
+          [
+            "Review scenarios",
+            "Specific tasks to guide feedback on the experience."
+          ],
+          [
+            "Design decisions",
+            "A record of the choices that shape the direction."
+          ],
+          [
+            "Refinement priorities",
+            "A clear order for resolving the remaining questions."
+          ]
+        ]
+      },
+      {
+        "title": "Handover essentials",
+        "items": [
+          [
+            "Design files",
+            "Organized source files for the agreed deliverables."
+          ],
+          [
+            "Component guidance",
+            "Notes on how patterns and states should behave."
+          ],
+          [
+            "Build collaboration",
+            "A practical route from design into implementation."
+          ],
+          [
+            "Launch review",
+            "Checks against the agreed design and website scope."
+          ]
+        ]
+      }
+    ],
+    "collaboration": [
+      [
+        "Brief",
+        "Bring the context",
+        "Share the product, user journeys, business priorities and any technical constraints."
+      ],
+      [
+        "Scope",
+        "Agree the engagement",
+        "We define deliverables, responsibilities, review stages and timelines around the brief."
+      ],
+      [
+        "Review",
+        "Make decisions together",
+        "Bring feedback into the agreed review stages so the direction stays clear and the work moves forward."
+      ],
+      [
+        "Handover",
+        "Put the work to use",
+        "Receive the agreed files and guidance, with any rollout or ongoing support scoped separately."
+      ]
+    ],
+    "formats": [
+      "Websites",
+      "SaaS products",
+      "Dashboards",
+      "Mobile apps",
+      "Customer portals",
+      "Design systems",
+      "Prototypes",
+      "Framer builds"
+    ]
+  },
+  {
+    "id": "branding",
+    "slug": "branding-graphic-design",
+    "name": "Branding & Graphic Design",
+    "line": "Make your brand unmistakably yours.",
+    "headline": "A clear identity. A brand people recognize.",
+    "summary": "Give your business a visual language that works everywhere, from your first impression to the details people remember.",
+    "description": "Explore Kyte's branding and graphic design work across identity systems, packaging and brand applications for businesses in India and beyond.",
+    "scope": [
+      [
+        "Positioning & direction",
+        "Find the idea behind your brand and the way it needs to show up."
+      ],
+      [
+        "Visual identity",
+        "Bring your logo, typography and color together into a coherent system."
+      ],
+      [
+        "Packaging & applications",
+        "Carry the identity into packaging, marketing materials and everyday touchpoints."
+      ],
+      [
+        "Guidelines & rollout",
+        "Give your team clear guidance and usable assets to keep the brand consistent."
+      ]
+    ],
+    "steps": [
+      [
+        "Find the foundation",
+        "Understand your business, audience and point of view."
+      ],
+      [
+        "Choose a direction",
+        "Explore the visual ideas that fit your story."
+      ],
+      [
+        "Build the system",
+        "Develop the identity and test it across real applications."
+      ],
+      [
+        "Put it to work",
+        "Prepare assets and guidance for your team."
+      ]
+    ],
+    "fit": [
+      "You're launching a new business or product.",
+      "You've outgrown your current identity.",
+      "Your brand looks different at every touchpoint.",
+      "You need a practical brand system your team can use."
+    ],
+    "proof": [
+      "spicy-tango",
+      "strength-socials",
+      "mirai-brand-identity"
+    ],
+    "reasons": [
+      [
+        "Beyond the logo",
+        "Our work carries identity into packaging, content and digital experiences."
+      ],
+      [
+        "Built for real applications",
+        "We test a direction in the places your audience will actually encounter it."
+      ],
+      [
+        "Consistent, with room to grow",
+        "A useful system gives your team direction without making every piece look the same."
+      ],
+      [
+        "Clear from the start",
+        "Deliverables, responsibilities and review stages are agreed around your brief."
+      ]
+    ],
+    "faqs": [
+      [
+        "Can you refresh our existing identity?",
+        "Yes. We can review what is working, identify what needs to change and agree whether a focused refresh or a broader rebrand fits."
+      ],
+      [
+        "Is strategy included?",
+        "We define the depth of positioning and strategy at the start. A full identity engagement and a focused graphic-design project need different scopes."
+      ],
+      [
+        "Do you design packaging?",
+        "Yes. Packaging design can be part of the engagement, with formats, production requirements and supplier responsibilities agreed in advance."
+      ],
+      [
+        "What files will we receive?",
+        "We agree the source files, export formats, applications and brand guidance in the proposal so the handover fits your team's needs."
+      ],
+      [
+        "Can you help apply the new identity?",
+        "Yes. We can scope a rollout across digital, print, packaging or content alongside the identity work."
+      ],
+      [
+        "How do we get started?",
+        "Tell us what you are working on, what needs to change and any dates or constraints. We will review the brief with you and agree the scope, deliverables and next steps."
+      ]
+    ],
+    "deliverables": [
+      {
+        "title": "Brand foundations",
+        "items": [
+          [
+            "Audience focus",
+            "Who the brand speaks to and what matters to them."
+          ],
+          [
+            "Positioning direction",
+            "The place the business wants to occupy in its market."
+          ],
+          [
+            "Brand personality",
+            "The qualities that shape how the brand looks and sounds."
+          ],
+          [
+            "Messaging themes",
+            "A useful starting point for consistent communication."
+          ]
+        ]
+      },
+      {
+        "title": "Identity toolkit",
+        "items": [
+          [
+            "Logo system",
+            "Primary and supporting marks for agreed uses."
+          ],
+          [
+            "Typography",
+            "Type choices with a clear role and hierarchy."
+          ],
+          [
+            "Color palette",
+            "A coordinated palette for the identity."
+          ],
+          [
+            "Graphic language",
+            "Supporting visual elements that make the brand recognizable."
+          ]
+        ]
+      },
+      {
+        "title": "Real-world applications",
+        "items": [
+          [
+            "Packaging direction",
+            "Identity applied to the agreed product formats."
+          ],
+          [
+            "Digital touchpoints",
+            "Brand treatments for relevant screens and channels."
+          ],
+          [
+            "Print materials",
+            "Layouts for the collateral included in the brief."
+          ],
+          [
+            "Campaign assets",
+            "A consistent direction for launch communications."
+          ]
+        ]
+      },
+      {
+        "title": "Rollout resources",
+        "items": [
+          [
+            "Brand guidance",
+            "Practical rules for using the identity consistently."
+          ],
+          [
+            "Asset library",
+            "Exports organized around the agreed applications."
+          ],
+          [
+            "Source files",
+            "Editable files as defined in the proposal."
+          ],
+          [
+            "Team handover",
+            "A walkthrough of the system and how to use it."
+          ]
+        ]
+      }
+    ],
+    "collaboration": [
+      [
+        "Brief",
+        "Bring the context",
+        "Share the business story, current identity, audience and applications you need."
+      ],
+      [
+        "Scope",
+        "Agree the engagement",
+        "We define deliverables, responsibilities, review stages and timelines around the brief."
+      ],
+      [
+        "Review",
+        "Make decisions together",
+        "Bring feedback into the agreed review stages so the direction stays clear and the work moves forward."
+      ],
+      [
+        "Handover",
+        "Put the work to use",
+        "Receive the agreed files and guidance, with any rollout or ongoing support scoped separately."
+      ]
+    ],
+    "formats": [
+      "Brand identity",
+      "Packaging",
+      "Websites",
+      "Social channels",
+      "Print collateral",
+      "Pitch decks",
+      "Campaigns",
+      "Brand guidelines"
+    ]
+  },
+  {
+    "id": "social",
+    "slug": "social-media-content",
+    "name": "Social Media & Content",
+    "line": "Give people a reason to keep watching.",
+    "headline": "Content with something to say.",
+    "summary": "Turn your product, expertise and point of view into a consistent presence. We plan, create and refine content with your team.",
+    "description": "Social media and content services from Kyte, including strategy, production, founder content and ongoing creative support for growing brands.",
+    "scope": [
+      [
+        "Content strategy",
+        "Set a clear direction around your audience, channels and business priorities."
+      ],
+      [
+        "Social creative",
+        "Develop reels, carousels and posts with a recognizable voice and visual language."
+      ],
+      [
+        "Founder & personal branding",
+        "Shape your expertise and perspective into content that sounds like you."
+      ],
+      [
+        "Production & publishing",
+        "Plan shoots, create assets and agree a practical rhythm for approvals and delivery."
+      ]
+    ],
+    "steps": [
+      [
+        "Find the point of view",
+        "Understand what makes you worth paying attention to."
+      ],
+      [
+        "Build the formats",
+        "Choose repeatable ideas that fit the audience and channel."
+      ],
+      [
+        "Create & publish",
+        "Make the work and keep approvals moving."
+      ],
+      [
+        "Learn & refine",
+        "Review the response and use it to shape the next round."
+      ]
+    ],
+    "fit": [
+      "Your brand needs a more consistent presence.",
+      "You have expertise but little time to turn it into content.",
+      "Your team needs an ongoing creative and production partner.",
+      "You want founder expertise to become useful content."
+    ],
+    "proof": [
+      "smash-guys",
+      "staunch-fit-organic-growth",
+      "make-a-difference-social-media"
+    ],
+    "reasons": [
+      [
+        "Strategy meets production",
+        "Ideas are developed with the shoot, format and final channel in mind."
+      ],
+      [
+        "A recognizable voice",
+        "Content should feel like your business, not a series of unrelated trends."
+      ],
+      [
+        "A practical working rhythm",
+        "Scope, approvals and delivery cadence are agreed around your team's needs."
+      ],
+      [
+        "Clear from the start",
+        "Deliverables, responsibilities and review stages are agreed around your brief."
+      ]
+    ],
+    "faqs": [
+      [
+        "Which channels do you work on?",
+        "We choose channels around the audience and content brief. The scope sets out the platforms and formats we will support."
+      ],
+      [
+        "Is personal branding included?",
+        "Founder and personal-brand content is one track within this service. We work with your expertise and point of view rather than inventing a persona."
+      ],
+      [
+        "Who publishes the content?",
+        "Publishing responsibilities and access are agreed at the start. We can structure delivery around your internal team or an agreed managed workflow."
+      ],
+      [
+        "Are paid campaigns included?",
+        "Paid campaign strategy, management and media spend are separate scope decisions. Organic content work does not automatically include paid advertising."
+      ],
+      [
+        "How do you measure the work?",
+        "We agree measures around the objective, such as relevant engagement, qualified inquiries or content consistency. We do not guarantee follower counts or virality."
+      ],
+      [
+        "How do we get started?",
+        "Tell us what you are working on, what needs to change and any dates or constraints. We will review the brief with you and agree the scope, deliverables and next steps."
+      ]
+    ],
+    "deliverables": [
+      {
+        "title": "Editorial direction",
+        "items": [
+          [
+            "Audience priorities",
+            "The interests and questions your content should address."
+          ],
+          [
+            "Content pillars",
+            "Themes that connect your expertise and business goals."
+          ],
+          [
+            "Channel focus",
+            "Formats selected for the platforms in scope."
+          ],
+          [
+            "Brand voice",
+            "A clear point of view that feels like your business."
+          ]
+        ]
+      },
+      {
+        "title": "Creative formats",
+        "items": [
+          [
+            "Short videos",
+            "Ideas shaped for focused, watchable sequences."
+          ],
+          [
+            "Carousels",
+            "Stories and explanations broken into useful steps."
+          ],
+          [
+            "Static posts",
+            "Single ideas with clear visual hierarchy."
+          ],
+          [
+            "Founder content",
+            "Expertise and perspective expressed in your own voice."
+          ]
+        ]
+      },
+      {
+        "title": "Production workflow",
+        "items": [
+          [
+            "Content calendar",
+            "An agreed plan for what is made and when."
+          ],
+          [
+            "Shoot preparation",
+            "Briefs, references and requirements for production."
+          ],
+          [
+            "Review batches",
+            "An organized way to gather feedback on the work."
+          ],
+          [
+            "Publishing handoff",
+            "Approved files and copy prepared for the agreed workflow."
+          ]
+        ]
+      },
+      {
+        "title": "Ongoing learning",
+        "items": [
+          [
+            "Content review",
+            "A look at what connected with the intended audience."
+          ],
+          [
+            "Audience questions",
+            "Signals that can inform the next set of ideas."
+          ],
+          [
+            "Format refinement",
+            "Adjustments to the creative approach and presentation."
+          ],
+          [
+            "Next priorities",
+            "A focused plan for the next production cycle."
+          ]
+        ]
+      }
+    ],
+    "collaboration": [
+      [
+        "Brief",
+        "Bring the context",
+        "Share your channels, audience, existing content and team capacity."
+      ],
+      [
+        "Scope",
+        "Agree the engagement",
+        "We define deliverables, responsibilities, review stages and timelines around the brief."
+      ],
+      [
+        "Review",
+        "Make decisions together",
+        "Bring feedback into the agreed review stages so the direction stays clear and the work moves forward."
+      ],
+      [
+        "Handover",
+        "Put the work to use",
+        "Receive the agreed files and guidance, with any rollout or ongoing support scoped separately."
+      ]
+    ],
+    "formats": [
+      "Instagram",
+      "LinkedIn",
+      "Short videos",
+      "Carousels",
+      "Founder stories",
+      "Product content",
+      "Launch campaigns",
+      "Editorial series"
+    ]
+  },
+  {
+    "id": "video",
+    "slug": "video-animation",
+    "name": "Video & Animation",
+    "line": "Make your message move.",
+    "headline": "Ideas made clear through motion.",
+    "summary": "Explain a product, introduce an idea or build a campaign with video shaped around the audience and the job it needs to do.",
+    "description": "Video production and animation from Kyte: explainer videos, product walkthroughs, motion graphics and campaign content for growing businesses.",
+    "scope": [
+      [
+        "Explainer videos",
+        "Turn a complex offer into a clear story people can follow."
+      ],
+      [
+        "Product walkthroughs",
+        "Show how the product works through a focused, useful sequence."
+      ],
+      [
+        "Motion & animated campaigns",
+        "Bring identity and campaign ideas to life with purposeful movement."
+      ],
+      [
+        "Production & cutdowns",
+        "Plan the footage, edits and channel-ready versions around the agreed brief."
+      ]
+    ],
+    "steps": [
+      [
+        "Write the story",
+        "Agree the audience, objective and script."
+      ],
+      [
+        "Set the visual direction",
+        "Develop a storyboard and style before production."
+      ],
+      [
+        "Bring it to life",
+        "Create the footage or animation and shape the edit."
+      ],
+      [
+        "Prepare the delivery",
+        "Finish sound, captions and the agreed formats."
+      ]
+    ],
+    "fit": [
+      "Your product takes too long to explain.",
+      "You're preparing a launch or campaign.",
+      "You need a consistent set of video assets across channels.",
+      "You need motion that feels consistent with your brand."
+    ],
+    "proof": [
+      "revenue-grid-explainer-videos",
+      "maya-explainer-video",
+      "banza-social-content-production"
+    ],
+    "reasons": [
+      [
+        "Clarity before effects",
+        "The message and sequence come first, with motion serving the story."
+      ],
+      [
+        "Connected to your brand",
+        "Visual direction is shaped around the identity and audience."
+      ],
+      [
+        "Designed for its destination",
+        "Aspect ratios, captions and cutdowns are considered in the brief."
+      ],
+      [
+        "Clear from the start",
+        "Deliverables, responsibilities and review stages are agreed around your brief."
+      ]
+    ],
+    "faqs": [
+      [
+        "Do you handle the script?",
+        "Scripting and storyboarding can be included. We agree the information, reviews and subject-matter input needed from your team."
+      ],
+      [
+        "Animation or live action?",
+        "The right format depends on the message, available assets, audience and budget. We work through that choice in the brief."
+      ],
+      [
+        "Can you use existing footage?",
+        "Yes, subject to quality, format and usage rights. We review existing material before committing to the edit."
+      ],
+      [
+        "Can we get different versions?",
+        "Yes. Aspect ratios, cutdowns, languages and captions are scoped before production so delivery matches the channels."
+      ],
+      [
+        "How are revisions handled?",
+        "Review stages and revision rounds are agreed in the proposal, with script and visual direction resolved before the most production-intensive work."
+      ],
+      [
+        "How do we get started?",
+        "Tell us what you are working on, what needs to change and any dates or constraints. We will review the brief with you and agree the scope, deliverables and next steps."
+      ]
+    ],
+    "deliverables": [
+      {
+        "title": "Story foundations",
+        "items": [
+          [
+            "Creative brief",
+            "Audience, objective and the job the video needs to do."
+          ],
+          [
+            "Script direction",
+            "A clear message and a sequence people can follow."
+          ],
+          [
+            "Storyboard",
+            "The visual plan before production begins."
+          ],
+          [
+            "Style references",
+            "A shared direction for the look, tone and movement."
+          ]
+        ]
+      },
+      {
+        "title": "Production elements",
+        "items": [
+          [
+            "Animation assets",
+            "Visual elements developed for the agreed style."
+          ],
+          [
+            "Screen sequences",
+            "Product views that support the story or walkthrough."
+          ],
+          [
+            "Footage selection",
+            "Relevant supplied or produced material for the edit."
+          ],
+          [
+            "Sound direction",
+            "Music, voice and sound requirements agreed in the brief."
+          ]
+        ]
+      },
+      {
+        "title": "Finishing details",
+        "items": [
+          [
+            "Edit review",
+            "A structured review of the sequence and pacing."
+          ],
+          [
+            "Motion refinement",
+            "Transitions and movement resolved around the story."
+          ],
+          [
+            "Sound finishing",
+            "An agreed sound mix for the final video."
+          ],
+          [
+            "Captions",
+            "Caption requirements prepared for the chosen channels."
+          ]
+        ]
+      },
+      {
+        "title": "Delivery formats",
+        "items": [
+          [
+            "Master video",
+            "The approved full-length version in the agreed format."
+          ],
+          [
+            "Channel cutdowns",
+            "Shorter versions scoped for different placements."
+          ],
+          [
+            "Aspect ratios",
+            "Agreed formats for horizontal, square or vertical use."
+          ],
+          [
+            "Handover files",
+            "Final exports and source-file responsibilities set in the proposal."
+          ]
+        ]
+      }
+    ],
+    "collaboration": [
+      [
+        "Brief",
+        "Bring the context",
+        "Share the message, audience, channels, existing assets and production constraints."
+      ],
+      [
+        "Scope",
+        "Agree the engagement",
+        "We define deliverables, responsibilities, review stages and timelines around the brief."
+      ],
+      [
+        "Review",
+        "Make decisions together",
+        "Bring feedback into the agreed review stages so the direction stays clear and the work moves forward."
+      ],
+      [
+        "Handover",
+        "Put the work to use",
+        "Receive the agreed files and guidance, with any rollout or ongoing support scoped separately."
+      ]
+    ],
+    "formats": [
+      "Explainers",
+      "Product demos",
+      "Launch films",
+      "Social cutdowns",
+      "Motion graphics",
+      "Animated ads",
+      "Walkthroughs",
+      "Brand films"
+    ]
+  }
+]

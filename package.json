@@ -1,0 +1,24 @@
+{
+  "name": "codex-kyte-website",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Original Kyte Framer components with targeted fixes",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-framer.mjs",
+    "start": "node server-framer.mjs",
+    "dev": "node scripts/build-framer.mjs && node server-framer.mjs",
+    "check": "node scripts/check-framer.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "reference": "node server-mirror.mjs",
+    "check:reference": "node scripts/check.mjs",
+    "build:redesign": "node src/build.mjs",
+    "preview:redesign": "node server.mjs",
+    "check:redesign": "node scripts/verify.mjs",
+    "package:redesign": "node scripts/package-release.mjs",
+    "build:vercel": "node scripts/build-vercel.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

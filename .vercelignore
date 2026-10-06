@@ -1,0 +1,7 @@
+.cache/
+audit/
+release/
+framer-site/
+.git/
+.env
+.env.*

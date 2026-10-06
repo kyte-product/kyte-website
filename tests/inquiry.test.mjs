@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {validateInquiry,deliverInquiry} from '../src/inquiry.mjs';
+const valid={name:'Preview Test',email:'preview@example.com',company:'Example',service:'product',message:'This is an isolated automated delivery test.'};
+test('rejects incomplete, malformed and oversized inquiries',()=>{for(const data of [{},{...valid,email:'bad'},{...valid,message:'short'},{...valid,message:'x'.repeat(5001)},{...valid,service:'injected'}])assert.ok(validateInquiry(data).error)});
+test('honeypot never reaches delivery fields',()=>assert.deepEqual(validateInquiry({...valid,website:'spam'}),{spam:true}));
+test('validates, trims and removes unknown fields',()=>{const result=validateInquiry({...valid,name:' Preview Test ',secret:'ignored'});assert.equal(result.fields.name,'Preview Test');assert.equal(result.fields.secret,undefined)});
+test('missing configuration is a truthful service-unavailable result',async()=>{const result=await deliverInquiry(valid,{});assert.equal(result.status,503);assert.equal(result.ok,undefined)});
+test('requires HTTPS delivery endpoint',async()=>assert.equal((await deliverInquiry(valid,{INQUIRY_WEBHOOK_URL:'http://example.com'})).status,503));
+test('reports success only after successful delivery and passes authorization server-side',async()=>{let seen;const result=await deliverInquiry(valid,{INQUIRY_WEBHOOK_URL:'https://example.com/inbox',INQUIRY_WEBHOOK_TOKEN:'test-token'},async(url,options)=>{seen=options;return {ok:true}});assert.equal(result.ok,true);assert.equal(seen.headers.Authorization,'Bearer test-token');assert.equal(JSON.parse(seen.body).email,valid.email);assert.equal(seen.redirect,'error')});
+test('delivery failure never reports success',async()=>{for(const fetcher of [async()=>({ok:false}),async()=>{throw Error('offline')}]){const result=await deliverInquiry(valid,{INQUIRY_WEBHOOK_URL:'https://example.com/inbox'},fetcher);assert.equal(result.status,502);assert.equal(result.ok,undefined)}});

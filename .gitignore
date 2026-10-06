@@ -1,0 +1,12 @@
+.cache/
+.DS_Store
+node_modules/
+*.log
+.env
+.env.*
+!.env.example
+.vercel/
+framer-site/
+audit/
+release/
+*.zip

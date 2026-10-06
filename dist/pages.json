@@ -1,0 +1,201 @@
+{
+  "production": false,
+  "domain": "https://kyte-agency.com",
+  "pages": [
+    {
+      "path": "/",
+      "title": "UI/UX Design Agency in India · Kyte",
+      "description": "Kyte designs digital products, builds clear brands and creates content that brings them into the world. Explore our work and services."
+    },
+    {
+      "path": "/services",
+      "title": "Design, Branding & Content Services · Kyte",
+      "description": "Explore Product & UI/UX Design, Branding & Graphic Design, Social Media & Content, and Video & Animation with Kyte."
+    },
+    {
+      "path": "/services/product-ui-ux-design",
+      "title": "Website & UI/UX Design Agency in India · Kyte",
+      "description": "Work with Kyte on website design, UX research, interface systems and prototypes. Explore our digital product work for teams in India and beyond."
+    },
+    {
+      "path": "/services/branding-graphic-design",
+      "title": "Branding & Graphic Design Agency in India · Kyte",
+      "description": "Explore Kyte's branding and graphic design work across identity systems, packaging and brand applications for businesses in India and beyond."
+    },
+    {
+      "path": "/services/social-media-content",
+      "title": "Social Media & Content Agency in India · Kyte",
+      "description": "Social media and content services from Kyte, including strategy, production, founder content and ongoing creative support for growing brands."
+    },
+    {
+      "path": "/services/video-animation",
+      "title": "Video Production & Animation in India · Kyte",
+      "description": "Video production and animation from Kyte: explainer videos, product walkthroughs, motion graphics and campaign content for growing businesses."
+    },
+    {
+      "path": "/work",
+      "title": "Selected Design & Branding Work · Kyte",
+      "description": "Explore selected Kyte projects across website and product design, brand identity, social content and video."
+    },
+    {
+      "path": "/work/accountify-website",
+      "title": "Accountify · Accountify Website · Kyte",
+      "description": "We helped Accountify launch a modern Framer website for their AI-powered accounting and ERP platform"
+    },
+    {
+      "path": "/work/arka-inventory-website",
+      "title": "Arka Inventory · Arka Inventory Website · Kyte",
+      "description": "We helped Arka Inventory revamp their dated website into a modern, conversion-focused Framer site"
+    },
+    {
+      "path": "/work/banza-social-content-production",
+      "title": "Banza · Production and Social Content Marketing · Kyte",
+      "description": "High-production social content and marketing that gave Banza an elevated presence, introducing a new way to think about personal technology."
+    },
+    {
+      "path": "/work/collectbee-website",
+      "title": "Collectbee · Collectbee Website · Kyte",
+      "description": "We helped Collectbee launch a Framer website for their AI-powered accounts receivable and collections platform"
+    },
+    {
+      "path": "/work/doodle-dept.-website",
+      "title": "Doodle Dept. · eCom Shopify Website · Kyte",
+      "description": "A playful Shopify website that turned Doodle Dept’s chaotic creative energy into a memorable shopping experience for the creatively employed."
+    },
+    {
+      "path": "/work/make-a-difference-social-media",
+      "title": "Make a Difference (MAD) · Production and Social Media Marketing · Kyte",
+      "description": "Full social media management, production and event coverage for Make A Difference across multiple cities, like Mumbai, Bangalore, and Goa."
+    },
+    {
+      "path": "/work/maya-explainer-video",
+      "title": "Maya · Video & Social Content · Kyte",
+      "description": "Explaining an AI-powered hiring platform through content."
+    },
+    {
+      "path": "/work/mirai-brand-identity",
+      "title": "Mirai · Brand Building · Kyte",
+      "description": "Mirai, meaning ‘future’ in Japanese, is a brand that blends the elegance of the past with the vision of tomorrow. We tried to build an identity that reflects its essence."
+    },
+    {
+      "path": "/work/msr-assets",
+      "title": "MSR Assets · Brand Identity · Kyte",
+      "description": "A visual identity for a luxury real-estate brand."
+    },
+    {
+      "path": "/work/ogale-machines-design-development",
+      "title": "Ogale Machines · Website Design & Development · Kyte",
+      "description": "Making specialized engineering easier to understand."
+    },
+    {
+      "path": "/work/revenue-grid-explainer-videos",
+      "title": "Revenue Grid · Explainer Videos · Kyte",
+      "description": "A series of explainer videos that broke down Revenue Grid’s Salesforce-native revenue intelligence platform into clear, digestible content for sales teams and leaders."
+    },
+    {
+      "path": "/work/sapani-website",
+      "title": "Sapani Industrial Products · Website Design & Development · Kyte",
+      "description": "A clearer digital home for industrial products."
+    },
+    {
+      "path": "/work/smash-guys",
+      "title": "Smash Guys · Production & Social Media · Kyte",
+      "description": "Building a restaurant’s presence before the doors opened."
+    },
+    {
+      "path": "/work/spicy-tango",
+      "title": "Spicy Tango · Packaging Design and Social Media · Kyte",
+      "description": "A vibrant packaging and social media identity that brought Spicy Tango’s bold Indian flavours, heirloom recipes and energetic personality to life."
+    },
+    {
+      "path": "/work/spicybayer-restaurant-website",
+      "title": "Spicy Bayer · SpicyBayer Restaurant Website · Kyte",
+      "description": "We helped SpicyBayer bring their Bavarian Indian Tamil fusion restaurant online with a warm, appetite-driven Framer website"
+    },
+    {
+      "path": "/work/sproutova-brand-identity",
+      "title": "Sproutova · Brand Building · Kyte",
+      "description": "Agriculture has always been about growth, but growth now comes with systems, data, and intelligence. Sproutova’s identity reflects that shift, rooted in the natural world yet structured for innovation."
+    },
+    {
+      "path": "/work/staunch-fit-organic-growth",
+      "title": "Staunch.Fit · Organic Marketing & Brand Building · Kyte",
+      "description": "Helping a homegrown fitness startup scale organically with storytelling, systems, and strategy. Staunch.Fit was born with a clear mission, bring certified personal training, yoga, and physiotherapy right to your doorstep."
+    },
+    {
+      "path": "/work/strength-socials",
+      "title": "Strength Socials · Brand Identity Design · Kyte",
+      "description": "A bold, athlete first brand identity built to unite India’s strength sports community through competition, connection, and shared ambition."
+    },
+    {
+      "path": "/work/wynter-s-dreams-website-and-app",
+      "title": "Wynter's Dreams · Wynter's Dreams Website and App · Kyte",
+      "description": "We helped Wynter's Dreams bring an interactive eBook experience to life for kids, across their website and web app"
+    },
+    {
+      "path": "/design-news",
+      "title": "Design News & Perspectives · Kyte",
+      "description": "Read perspectives from Kyte on design, branding, culture and the things that make people pay attention."
+    },
+    {
+      "path": "/design-news/sole-identity-how-sneaker-culture-cracked-the-code-on-branding-before-brands-did",
+      "title": "Sole Identity: How Sneaker Culture Cracked the Code on Branding Before Brands Did · Kyte",
+      "description": "Sneaker brands built meaning before most brands figured out what meaning was. Here's what they got right, and what every brand can learn from it."
+    },
+    {
+      "path": "/design-news/when-advertising-was-unhinged-why-early-2000s-tech-marketing-still-hits-different",
+      "title": "When Advertising Was Unhinged: Why Early 2000s Tech Marketing Still Hits Different · Kyte",
+      "description": "For a brief window in the late 1990s and early 2000s, tech brands chased discomfort over clarity. Here is the strategy underneath the shock value, and what it says about advertising today."
+    },
+    {
+      "path": "/design-news/what-your-playlist-says-about-you-(and-why-brands-should-be-listening)",
+      "title": "What Your Playlist Says About You (And Why Brands Should Be Listening) · Kyte",
+      "description": "A playlist is a self-portrait, and most brands have no idea what theirs sounds like. Here is what DJs and curators understand about voice that most content teams don't."
+    },
+    {
+      "path": "/design-news/the-menu-is-the-message",
+      "title": "The Menu Is the Message · Kyte",
+      "description": "Read a restaurant's menu for two minutes and you already know what it thinks of itself, and of you. Most brands make the same positioning choices without realising it."
+    },
+    {
+      "path": "/design-news/the-wrap-is-the-campaign-what-car-camouflage-teaches-us-about-building-desire",
+      "title": "The Wrap Is the Campaign: What Car Camouflage Teaches Us About Building Desire · Kyte",
+      "description": "Dazzle wraps on test cars were built to hide a car's body lines. Somewhere along the way, automakers figured out they also build desire, and stopped hiding."
+    },
+    {
+      "path": "/design-news/how-dior-redefined-luxury-in-india-by-embracing-its-visual-language",
+      "title": "How Dior Redefined Luxury in India by Embracing Its Visual Language · Kyte",
+      "description": "Most global luxury houses simplify when they enter India. Dior did the opposite, and the Mumbai showcase shows what amplification instead of adaptation actually looks like."
+    },
+    {
+      "path": "/design-news/why-sensory-branding-is-the-next-big-thing-in-2026",
+      "title": "Why Sensory Branding Is the Next Big Thing in 2026 · Kyte",
+      "description": "Branding is quietly shifting from how a brand looks to how it feels. Texture, scent, sound and weight are becoming the new differentiator, and beauty brands are already proving it."
+    },
+    {
+      "path": "/design-news/what-3-years-of-studying-marketing-really-taught-me-about-people",
+      "title": "What 3 Years of Studying Marketing Really Taught Me About People · Kyte",
+      "description": "Most of what actually gets used at Kyte doesn't come from tools or trends. It comes from a handful of consumer psychology ideas that quietly changed how branding gets approached."
+    },
+    {
+      "path": "/about-us",
+      "title": "About Kyte · Our Team and Approach",
+      "description": "Meet Kyte, a design and creative agency working across digital products, branding, content and video."
+    },
+    {
+      "path": "/contact",
+      "title": "Contact Kyte · Tell Us About Your Project",
+      "description": "Tell Kyte about your next website, digital product, branding or content project. Start a conversation with our team."
+    },
+    {
+      "path": "/careers",
+      "title": "Careers at Kyte · Introduce Yourself",
+      "description": "Introduce yourself to Kyte. Share your portfolio and the design, content or production work you care about."
+    },
+    {
+      "path": "/privacy",
+      "title": "Privacy · Kyte",
+      "description": "How Kyte uses project inquiry details and how to contact us about your information."
+    }
+  ]
+}

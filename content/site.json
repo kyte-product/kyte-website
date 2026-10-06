@@ -1,0 +1,1310 @@
+{
+  "business": {
+    "name": "Kyte",
+    "email": "contact@kyte-agency.com",
+    "phone": "",
+    "address": "",
+    "city": "Bengaluru, India",
+    "domain": "https://kyte-agency.com"
+  },
+  "projects": [
+    {
+      "slug": "accountify-website",
+      "name": "Accountify",
+      "role": "Accountify Website",
+      "summary": "We helped Accountify launch a modern Framer website for their AI-powered accounting and ERP platform",
+      "group": "product",
+      "cover": {
+        "decoding": "async",
+        "width": 1672,
+        "height": 941,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/49e25f7cad1a5d-480.webp 480w, /assets/optimized/49e25f7cad1a5d-960.webp 960w, /assets/optimized/49e25f7cad1a5d-1440.webp 1440w",
+        "src": "/assets/optimized/49e25f7cad1a5d-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/6KABrtweDbU4rhmoikCTRK4OJo--02df8666176e.png"
+      },
+      "gallery": [],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "Accountify needed a website that could clearly present a broad suite of Salesforce-native financial tools, spanning accounting, inventory, assets, budgeting, HR and payroll, and compliance, without overwhelming visitors."
+        },
+        {
+          "type": "p",
+          "text": "Kyte designed and built a Framer site that positions Accountify as an AI-driven, all-in-one ERP for growing businesses."
+        }
+      ],
+      "source": "Case Studies/32_Accountify _Case Study.docx"
+    },
+    {
+      "slug": "arka-inventory-website",
+      "name": "Arka Inventory",
+      "role": "Arka Inventory Website",
+      "summary": "We helped Arka Inventory revamp their dated website into a modern, conversion-focused Framer site",
+      "group": "product",
+      "cover": {
+        "decoding": "async",
+        "width": 1672,
+        "height": 941,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/fd16d73f58bf91-480.webp 480w, /assets/optimized/fd16d73f58bf91-960.webp 960w, /assets/optimized/fd16d73f58bf91-1440.webp 1440w",
+        "src": "/assets/optimized/fd16d73f58bf91-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/Aax9sYJdl6rEDQNGDE2xiTkoM--02df8666176e.png"
+      },
+      "gallery": [],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "Arka Inventory needed a website that could explain a complex, Salesforce-native inventory management product to both operations teams and technical buyers."
+        },
+        {
+          "type": "p",
+          "text": "Kyte designed and developed a Framer site that positions Arka as an all-in-one solution for stock, purchasing, warehouse workflows, and costing, built for growing businesses already using Salesforce."
+        }
+      ],
+      "source": "Case Studies/33_Arka Inventory_Case Study.docx"
+    },
+    {
+      "slug": "banza-social-content-production",
+      "name": "Banza",
+      "role": "Production and Social Content Marketing",
+      "summary": "High-production social content and marketing that gave Banza an elevated presence, introducing a new way to think about personal technology.",
+      "group": "social",
+      "cover": {
+        "decoding": "async",
+        "width": 1672,
+        "height": 941,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/aee6d9e3d7eb96-480.webp 480w, /assets/optimized/aee6d9e3d7eb96-960.webp 960w, /assets/optimized/aee6d9e3d7eb96-1440.webp 1440w",
+        "src": "/assets/optimized/aee6d9e3d7eb96-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/NoCNmKvRr52lE3GbzJecAxjB1w--02df8666176e.png"
+      },
+      "gallery": [],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "Banza needed content that could make a genuinely new idea feel exciting and easy to grasp. We handled production end-to-end, creating high-end unique content that gave the brand a sharp, distinctive presence and helped it stand out in a crowded space."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    },
+    {
+      "slug": "collectbee-website",
+      "name": "Collectbee",
+      "role": "Collectbee Website",
+      "summary": "We helped Collectbee launch a Framer website for their AI-powered accounts receivable and collections platform",
+      "group": "product",
+      "cover": {
+        "decoding": "async",
+        "width": 1672,
+        "height": 941,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/51d96af4abfe90-480.webp 480w, /assets/optimized/51d96af4abfe90-960.webp 960w, /assets/optimized/51d96af4abfe90-1440.webp 1440w",
+        "src": "/assets/optimized/51d96af4abfe90-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/t73cjS6tL7hanCdA7IyaKJlfeJo--02df8666176e.png"
+      },
+      "gallery": [],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "Collectbee needed a website that could make a technical AR automation product feel simple and outcome-driven for finance teams."
+        },
+        {
+          "type": "p",
+          "text": "Kyte designed and built a Framer site that walks visitors through the platform's AI capabilities, from invoice processing to predictive payment analytics, with a clear path to trial or enterprise sales."
+        }
+      ],
+      "source": "Case Studies/34_Collectbee_Case Study.docx"
+    },
+    {
+      "slug": "doodle-dept.-website",
+      "name": "Doodle Dept.",
+      "role": "eCom Shopify Website",
+      "summary": "A playful Shopify website that turned Doodle Dept’s chaotic creative energy into a memorable shopping experience for the creatively employed.",
+      "group": "product",
+      "cover": {
+        "decoding": "async",
+        "width": 1672,
+        "height": 941,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/6410aa5ec8ba65-480.webp 480w, /assets/optimized/6410aa5ec8ba65-960.webp 960w, /assets/optimized/6410aa5ec8ba65-1440.webp 1440w",
+        "src": "/assets/optimized/6410aa5ec8ba65-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/rYdAbmfgP6xGsz8MdHhmYBUsA--02df8666176e.png"
+      },
+      "gallery": [
+        {
+          "src": "/assets/optimized/6410aa5ec8ba65-1440.webp",
+          "alt": null,
+          "loading": null,
+          "width": 1672,
+          "height": 941,
+          "srcset": "/assets/optimized/6410aa5ec8ba65-480.webp 480w, /assets/optimized/6410aa5ec8ba65-960.webp 960w, /assets/optimized/6410aa5ec8ba65-1440.webp 1440w",
+          "original_src": "/assets/framerusercontent.com/images/rYdAbmfgP6xGsz8MdHhmYBUsA--02df8666176e.png"
+        }
+      ],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "Doodle Dept is BTG’s merchandise line for overworked, over inspired and creatively employed people. We designed a story led Shopify website that felt less like a conventional online store and more like entering the department itself. Witty copy, hand drawn doodles, bold yellow accents and unexpected details brought the brand’s self aware personality into every page, while a clear shopping journey made the experience easy to explore and purchase from."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    },
+    {
+      "slug": "make-a-difference-social-media",
+      "name": "Make a Difference (MAD)",
+      "role": "Production and Social Media Marketing",
+      "summary": "Full social media management, production and event coverage for Make A Difference across multiple cities, like Mumbai, Bangalore, and Goa.",
+      "group": "social",
+      "cover": {
+        "decoding": "async",
+        "width": 1920,
+        "height": 1080,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/f27c5b9048016b-480.webp 480w, /assets/optimized/f27c5b9048016b-960.webp 960w, /assets/optimized/f27c5b9048016b-1440.webp 1440w",
+        "src": "/assets/optimized/f27c5b9048016b-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/oWdfQ56BwaJBaoTkjLI3ihh0cHE--deae0fffe73e.png"
+      },
+      "gallery": [],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "MAD needed consistent, high-quality coverage of their work across the country. We managed their social media end-to-end and covered events and storytelling content across multiple cities including Mumbai, Bangalore, and Goa, alongside content featuring AB de Villiers, giving the NGO a stronger and more connected presence nationwide."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    },
+    {
+      "slug": "maya-explainer-video",
+      "name": "Maya",
+      "role": "Video & Social Content",
+      "summary": "Explaining an AI-powered hiring platform through content.",
+      "group": "video",
+      "cover": {
+        "decoding": "async",
+        "width": 1672,
+        "height": 941,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/47c218a3e06b92-480.webp 480w, /assets/optimized/47c218a3e06b92-960.webp 960w, /assets/optimized/47c218a3e06b92-1440.webp 1440w",
+        "src": "/assets/optimized/47c218a3e06b92-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/GApp37yXcE6R0ucbh3Hb9iVhIk--02df8666176e.png"
+      },
+      "gallery": [],
+      "body": [
+        {
+          "type": "h2",
+          "text": "The brief"
+        },
+        {
+          "type": "p",
+          "text": "Maya is an AI agent platform focused on hiring and job matching. The content needed to introduce the offer in a way people could follow."
+        },
+        {
+          "type": "h2",
+          "text": "The work"
+        },
+        {
+          "type": "p",
+          "text": "Kyte developed content around the product and its role in the hiring experience. The selected work brings the platform’s message into a visual format."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    },
+    {
+      "slug": "mirai-brand-identity",
+      "name": "Mirai",
+      "role": "Brand Building",
+      "summary": "Mirai, meaning ‘future’ in Japanese, is a brand that blends the elegance of the past with the vision of tomorrow. We tried to build an identity that reflects its essence.",
+      "group": "branding",
+      "cover": {
+        "decoding": "async",
+        "width": 1672,
+        "height": 941,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/9ceca9059fc705-480.webp 480w, /assets/optimized/9ceca9059fc705-960.webp 960w, /assets/optimized/9ceca9059fc705-1440.webp 1440w",
+        "src": "/assets/optimized/9ceca9059fc705-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/45b5hkezqMKhw2Nvj6XKFS3K1o--02df8666176e.png"
+      },
+      "gallery": [
+        {
+          "src": "/assets/optimized/9ceca9059fc705-1440.webp",
+          "alt": null,
+          "loading": null,
+          "width": 1672,
+          "height": 941,
+          "srcset": "/assets/optimized/9ceca9059fc705-480.webp 480w, /assets/optimized/9ceca9059fc705-960.webp 960w, /assets/optimized/9ceca9059fc705-1440.webp 1440w",
+          "original_src": "/assets/framerusercontent.com/images/45b5hkezqMKhw2Nvj6XKFS3K1o--02df8666176e.png"
+        },
+        {
+          "src": "/assets/optimized/8f61cfb290bf98-1080.webp",
+          "alt": "Mirai brand identity and textile applications",
+          "loading": "lazy",
+          "width": 1080,
+          "height": 1350,
+          "srcset": "/assets/optimized/8f61cfb290bf98-480.webp 480w, /assets/optimized/8f61cfb290bf98-960.webp 960w, /assets/optimized/8f61cfb290bf98-1080.webp 1080w",
+          "original_src": "/assets/framerusercontent.com/images/FgqBnfD0jJIRIoJ7i4rBxAwFlAk--c00f50a2b5fe.png"
+        }
+      ],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "Mirai, meaning ‘future’ in Japanese, is a brand that blends the elegance of the past with the vision of tomorrow. We tried to build an identity that reflects its essence. Explore how we brought this vision to life."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    },
+    {
+      "slug": "msr-assets",
+      "name": "MSR Assets",
+      "role": "Brand Identity",
+      "summary": "A visual identity for a luxury real-estate brand.",
+      "group": "branding",
+      "cover": {
+        "decoding": "async",
+        "width": 1672,
+        "height": 941,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/697179fc338ec1-480.webp 480w, /assets/optimized/697179fc338ec1-960.webp 960w, /assets/optimized/697179fc338ec1-1440.webp 1440w",
+        "src": "/assets/optimized/697179fc338ec1-1440.webp",
+        "alt": "MSR Assets luxury real estate brand identity",
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/ex54fpWiAzpinkwt3tggrknHS0--02df8666176e.png"
+      },
+      "gallery": [],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Selected work"
+        },
+        {
+          "type": "p",
+          "text": "Explore the MSR Assets identity through the selected project imagery. The portfolio focuses on the visual work; additional project details will be added when the full case record is available."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    },
+    {
+      "slug": "ogale-machines-design-development",
+      "name": "Ogale Machines",
+      "role": "Website Design & Development",
+      "summary": "Making specialized engineering easier to understand.",
+      "group": "product",
+      "cover": {
+        "decoding": "async",
+        "width": 1672,
+        "height": 941,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/60386b4bf1b158-480.webp 480w, /assets/optimized/60386b4bf1b158-960.webp 960w, /assets/optimized/60386b4bf1b158-1440.webp 1440w",
+        "src": "/assets/optimized/60386b4bf1b158-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/mJmceG7OYVAdLKVHK5t3xSrEDN8--02df8666176e.png"
+      },
+      "gallery": [
+        {
+          "src": "/assets/optimized/60386b4bf1b158-1440.webp",
+          "alt": null,
+          "loading": null,
+          "width": 1672,
+          "height": 941,
+          "srcset": "/assets/optimized/60386b4bf1b158-480.webp 480w, /assets/optimized/60386b4bf1b158-960.webp 960w, /assets/optimized/60386b4bf1b158-1440.webp 1440w",
+          "original_src": "/assets/framerusercontent.com/images/mJmceG7OYVAdLKVHK5t3xSrEDN8--02df8666176e.png"
+        }
+      ],
+      "body": [
+        {
+          "type": "h2",
+          "text": "The challenge"
+        },
+        {
+          "type": "p",
+          "text": "Ogale Machines & Systems needed a website that made its industrial offering easier to understand and explore. Its engineering expertise had to translate into a clear online experience for prospective buyers."
+        },
+        {
+          "type": "h2",
+          "text": "Our approach"
+        },
+        {
+          "type": "p",
+          "text": "We structured the site around the company’s solutions, explaining the offer through a clear hierarchy, focused product information and a distinctive industrial visual direction."
+        },
+        {
+          "type": "h2",
+          "text": "The delivery"
+        },
+        {
+          "type": "p",
+          "text": "The project brought website design and development together, with responsive layouts and direct inquiry paths. The site gives the team a clearer way to present its capabilities and start a conversation with potential customers."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    },
+    {
+      "slug": "revenue-grid-explainer-videos",
+      "name": "Revenue Grid",
+      "role": "Explainer Videos",
+      "summary": "A series of explainer videos that broke down Revenue Grid’s Salesforce-native revenue intelligence platform into clear, digestible content for sales teams and leaders.",
+      "group": "video",
+      "cover": {
+        "decoding": "async",
+        "width": 1672,
+        "height": 941,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/a1268778c10304-480.webp 480w, /assets/optimized/a1268778c10304-960.webp 960w, /assets/optimized/a1268778c10304-1440.webp 1440w",
+        "src": "/assets/optimized/a1268778c10304-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/wpxs2M09U5AmOJU4Rp6BdT4--02df8666176e.png"
+      },
+      "gallery": [],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "Revenue Grid needed to make a complex, data-heavy sales platform easy to understand at a glance. We created explainer videos that broke down how the platform captures activity data, guides reps through their next best move, and turns pipeline data into actionable insights, giving sales teams and leaders a clear, digestible way to see the product’s value."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    },
+    {
+      "slug": "sapani-website",
+      "name": "Sapani Industrial Products",
+      "role": "Website Design & Development",
+      "summary": "A clearer digital home for industrial products.",
+      "group": "product",
+      "cover": {
+        "decoding": "async",
+        "width": 1672,
+        "height": 940,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/ad6113f419142d-480.webp 480w, /assets/optimized/ad6113f419142d-960.webp 960w, /assets/optimized/ad6113f419142d-1440.webp 1440w",
+        "src": "/assets/optimized/ad6113f419142d-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/U1nzEpNknz28BcxkDdVAtw9Lg--e1c30b4cd466.png"
+      },
+      "gallery": [],
+      "body": [
+        {
+          "type": "h2",
+          "text": "The challenge"
+        },
+        {
+          "type": "p",
+          "text": "Sapani needed a website that could present its industrial product range with clarity and help prospective customers find the information they needed."
+        },
+        {
+          "type": "h2",
+          "text": "Our approach"
+        },
+        {
+          "type": "p",
+          "text": "We organized the offer into a considered website structure, using product information and a clear visual hierarchy to guide exploration."
+        },
+        {
+          "type": "h2",
+          "text": "The delivery"
+        },
+        {
+          "type": "p",
+          "text": "The website brings the company’s products and capabilities into one accessible digital presentation, with clear paths to start an inquiry."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    },
+    {
+      "slug": "smash-guys",
+      "name": "Smash Guys",
+      "role": "Production & Social Media",
+      "summary": "Building a restaurant’s presence before the doors opened.",
+      "group": "social",
+      "cover": {
+        "decoding": "async",
+        "width": 1280,
+        "height": 853,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/6177365c65025e-480.webp 480w, /assets/optimized/6177365c65025e-960.webp 960w, /assets/optimized/6177365c65025e-1280.webp 1280w",
+        "src": "/assets/optimized/6177365c65025e-1280.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/5blcoHAEBePMLiTnE7pEA5qUdI--434c6363ba98.png"
+      },
+      "gallery": [
+        {
+          "src": "/assets/optimized/6177365c65025e-1280.webp",
+          "alt": null,
+          "loading": null,
+          "width": 1280,
+          "height": 853,
+          "srcset": "/assets/optimized/6177365c65025e-480.webp 480w, /assets/optimized/6177365c65025e-960.webp 960w, /assets/optimized/6177365c65025e-1280.webp 1280w",
+          "original_src": "/assets/framerusercontent.com/images/5blcoHAEBePMLiTnE7pEA5qUdI--434c6363ba98.png"
+        }
+      ],
+      "body": [
+        {
+          "type": "h2",
+          "text": "The challenge"
+        },
+        {
+          "type": "p",
+          "text": "Smash Guys needed a social presence while its first location was still taking shape. Without a finished storefront, the content had to introduce the food, the people and the personality behind the brand."
+        },
+        {
+          "type": "h2",
+          "text": "Our approach"
+        },
+        {
+          "type": "p",
+          "text": "We used early pop-ups and content shoots to capture product photography, behind-the-scenes moments and short-form stories. A consistent visual direction connected that material across social posts and launch communication."
+        },
+        {
+          "type": "h2",
+          "text": "The work"
+        },
+        {
+          "type": "p",
+          "text": "The engagement brought together ongoing production, social creative and community-focused content. The resulting portfolio shows how the brand could communicate before and after its physical launch."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    },
+    {
+      "slug": "spicy-tango",
+      "name": "Spicy Tango",
+      "role": "Packaging Design and Social Media",
+      "summary": "A vibrant packaging and social media identity that brought Spicy Tango’s bold Indian flavours, heirloom recipes and energetic personality to life.",
+      "group": "branding",
+      "cover": {
+        "decoding": "async",
+        "width": 1920,
+        "height": 1080,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/81936b4f4f9e27-480.webp 480w, /assets/optimized/81936b4f4f9e27-960.webp 960w, /assets/optimized/81936b4f4f9e27-1440.webp 1440w",
+        "src": "/assets/optimized/81936b4f4f9e27-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/gEPZUquoxmbNV3ehPzcYA--deae0fffe73e.png"
+      },
+      "gallery": [
+        {
+          "src": "/assets/optimized/81936b4f4f9e27-1440.webp",
+          "alt": null,
+          "loading": null,
+          "width": 1920,
+          "height": 1080,
+          "srcset": "/assets/optimized/81936b4f4f9e27-480.webp 480w, /assets/optimized/81936b4f4f9e27-960.webp 960w, /assets/optimized/81936b4f4f9e27-1440.webp 1440w",
+          "original_src": "/assets/framerusercontent.com/images/gEPZUquoxmbNV3ehPzcYA--deae0fffe73e.png"
+        }
+      ],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "Spicy Tango brings the bold, heirloom flavors of Indian pickles and spice blends to Houston, Texas, and Kyte made sure their packaging did them justice: vibrant, handcrafted designs that reflect the rich culinary heritage behind every jar, with just the right balance of tradition and modern appeal."
+        },
+        {
+          "type": "h2",
+          "text": "Social Media Approach"
+        },
+        {
+          "type": "p",
+          "text": "For social media, the brand stayed just as flavorful: rich textures, bold colors, and storytelling that brings the pickles and spices to life, because Spicy Tango isn’t just about food, it’s about culture, craft, and a taste of home, wherever you are."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    },
+    {
+      "slug": "spicybayer-restaurant-website",
+      "name": "Spicy Bayer",
+      "role": "SpicyBayer Restaurant Website",
+      "summary": "We helped SpicyBayer bring their Bavarian Indian Tamil fusion restaurant online with a warm, appetite-driven Framer website",
+      "group": "product",
+      "cover": {
+        "decoding": "async",
+        "width": 1672,
+        "height": 941,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/544004e4d7c6dc-480.webp 480w, /assets/optimized/544004e4d7c6dc-960.webp 960w, /assets/optimized/544004e4d7c6dc-1440.webp 1440w",
+        "src": "/assets/optimized/544004e4d7c6dc-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/bBhfNW6TyvWQZ6KhQqnN1JLDC0--02df8666176e.png"
+      },
+      "gallery": [],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "SpicyBayer needed a website that could capture their unique concept, Bavarian cuisine fused with Indian and Tamil flavors, in a way that felt inviting to families and food lovers alike. Kyte designed and built a Framer site with reservation booking, menu access, and a gallery to showcase the restaurant's atmosphere and dishes."
+        },
+        {
+          "type": "h2",
+          "text": "Challenge"
+        },
+        {
+          "type": "p",
+          "text": "The restaurant's cross-cultural menu needed a visual identity that felt cohesive rather than confusing, while making it easy for guests to reserve a table, view the menu, and see genuine social proof from a growing base of five-star Google reviews."
+        },
+        {
+          "type": "h2",
+          "text": "Solution"
+        },
+        {
+          "type": "p",
+          "text": "Kyte designed a warm, image-forward site structured around the food and dining experience, with a dedicated reservation flow, direct menu access via OpenTable and the restaurant's ordering platform, and a review carousel to build trust with new visitors."
+        },
+        {
+          "type": "h2",
+          "text": "Design System"
+        },
+        {
+          "type": "p",
+          "text": "The site uses rich food photography, a warm earthy palette, and a review carousel pulling directly from Google Reviews to reinforce credibility for a local restaurant."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    },
+    {
+      "slug": "sproutova-brand-identity",
+      "name": "Sproutova",
+      "role": "Brand Building",
+      "summary": "Agriculture has always been about growth, but growth now comes with systems, data, and intelligence. Sproutova’s identity reflects that shift, rooted in the natural world yet structured for innovation.",
+      "group": "branding",
+      "cover": {
+        "decoding": "async",
+        "width": 1080,
+        "height": 1080,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/c64a6edea38471-480.webp 480w, /assets/optimized/c64a6edea38471-960.webp 960w, /assets/optimized/c64a6edea38471-1080.webp 1080w",
+        "src": "/assets/optimized/c64a6edea38471-1080.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/4VtrUyVCLhEyDtotj2WNVSmKbA--9758b025a9f5.png"
+      },
+      "gallery": [],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "Agriculture has always been about growth, but growth now comes with systems, data, and intelligence. Sproutova’s identity reflects that shift, rooted in the natural world yet structured for innovation."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    },
+    {
+      "slug": "staunch-fit-organic-growth",
+      "name": "Staunch.Fit",
+      "role": "Organic Marketing & Brand Building",
+      "summary": "Helping a homegrown fitness startup scale organically with storytelling, systems, and strategy. Staunch.Fit was born with a clear mission, bring certified personal training, yoga, and physiotherapy right to your doorstep.",
+      "group": "social",
+      "cover": {
+        "decoding": "async",
+        "width": 1920,
+        "height": 1080,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/07e09e6bf0b95b-480.webp 480w, /assets/optimized/07e09e6bf0b95b-960.webp 960w, /assets/optimized/07e09e6bf0b95b-1440.webp 1440w",
+        "src": "/assets/optimized/07e09e6bf0b95b-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/aPGW1dcN0qmeo7UVbH7mVAab3A--deae0fffe73e.png"
+      },
+      "gallery": [],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "Staunch.Fit was born with a clear mission, bring certified personal training, yoga, and physiotherapy right to your doorstep. But like most early-stage startups, they needed more than a mission. They needed presence, credibility, and scale."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    },
+    {
+      "slug": "strength-socials",
+      "name": "Strength Socials",
+      "role": "Brand Identity Design",
+      "summary": "A bold, athlete first brand identity built to unite India’s strength sports community through competition, connection, and shared ambition.",
+      "group": "branding",
+      "cover": {
+        "decoding": "async",
+        "width": 1672,
+        "height": 941,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/0e4b1a2c4e4d91-480.webp 480w, /assets/optimized/0e4b1a2c4e4d91-960.webp 960w, /assets/optimized/0e4b1a2c4e4d91-1440.webp 1440w",
+        "src": "/assets/optimized/0e4b1a2c4e4d91-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/m3Fj68jSm7eB4KU3ETH1MvMyZk--02df8666176e.png"
+      },
+      "gallery": [],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "Founded by passionate athletes, Strength Socials is committed to building a cohesive culture for strength sports in India. Despite a massive fitness fanbase, the community remained fragmented, the goal was to unite like-minded individuals to socialize, grow, and thrive together. Kyte built a flexible brand system that could thrive across competitions, social media, merchandise and future community experiences."
+        },
+        {
+          "type": "h2",
+          "text": "Mission & Vision"
+        },
+        {
+          "type": "p",
+          "text": "As athletes who’ve faced the hurdles of under-recognized sports, the mission was to level the field, creating opportunities for all to thrive through events that inspire, empower, and build a culture of integrity and excellence. The vision: a level playing field where every Indian athlete can thrive, championing fair play, elevating lesser-known sports, and inspiring future generations to pursue greatness."
+        },
+        {
+          "type": "h2",
+          "text": "Logo Design"
+        },
+        {
+          "type": "p",
+          "text": "The primary logo showcases a dynamic wordmark of “SS” that not only represents but also forms a shape symbolizing community and togetherness, with inviting and inclusive colors reflecting the event’s welcoming and collaborative spirit. The logo construction follows a meticulous grid system to ensure precision and harmony in its proportions, a structured framework allowing for consistent spacing, alignment, and balance, with a central stylized, robust figure maintaining proportionality and visual coherence throughout."
+        },
+        {
+          "type": "h2",
+          "text": "Color Palette"
+        },
+        {
+          "type": "p",
+          "text": "The system runs on a defined palette carrying its own meaning: SS Black (#181818), SS Grey Dark (#757575), SS Grey Mid (#A0A0A0) and SS Grey Light (#E0E0E0) for balance, SS White (#F7F7F7) for integrity, SS Blue (#59ABF1) for confidence, SS Green (#73DD57) for growth, SS Yellow (#FFD949) for energy, SS Orange (#FA8D13) for optimism, and SS Red (#F03F4C) for passion."
+        },
+        {
+          "type": "h2",
+          "text": "Typography & Iconography"
+        },
+        {
+          "type": "p",
+          "text": "Helvetica Neue was chosen as the primary typeface for its clean, modern, versatile design and strong readability, with Helvetica Neue Condensed as the secondary face. Each event emblem features the same central robust figure within a circular form symbolizing unity, recolored per discipline: SS Crossfit, SS Bodybuilding, SS Calisthenics, SS Marathon, SS Strongman and SS Powerlifting."
+        },
+        {
+          "type": "h2",
+          "text": "Imagery & Brand Voice"
+        },
+        {
+          "type": "p",
+          "text": "Strength Socials uses bold, high-contrast imagery that captures the intensity, energy, and determination of athletes, close-ups, dramatic angles, and vibrant colors to highlight strength and movement, alongside diverse group shots reflecting the brand’s inclusivity and support. The brand voice is built on fair play, integrity, and an “athlete first” approach, with inclusivity at its core, ensuring every individual feels valued in a transparent, respectful community."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    },
+    {
+      "slug": "wynter-s-dreams-website-and-app",
+      "name": "Wynter's Dreams",
+      "role": "Wynter's Dreams Website and App",
+      "summary": "We helped Wynter's Dreams bring an interactive eBook experience to life for kids, across their website and web app",
+      "group": "product",
+      "cover": {
+        "decoding": "async",
+        "width": 1672,
+        "height": 941,
+        "sizes": "(min-width: 1400px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (min-width: 810px) and (max-width: 1399.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px), (max-width: 809.98px) calc(max(max((min(100vw - 64px, 1200px) - 32px) / 2, 50px), 1px) - 24px)",
+        "srcset": "/assets/optimized/2e244ab4ad90e4-480.webp 480w, /assets/optimized/2e244ab4ad90e4-960.webp 960w, /assets/optimized/2e244ab4ad90e4-1440.webp 1440w",
+        "src": "/assets/optimized/2e244ab4ad90e4-1440.webp",
+        "alt": null,
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/0NpKwcWMRBhT40DBL5Dttjbzqo--02df8666176e.png"
+      },
+      "gallery": [],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Introduction"
+        },
+        {
+          "type": "p",
+          "text": "Wynter's Dreams set out to reimagine bedtime reading for kids through interactive, choice-driven eBooks. Kyte designed and developed both their marketing website and the reading app itself, giving young readers a personalized, name-your-hero storytelling experience across web and mobile."
+        },
+        {
+          "type": "h2",
+          "text": "Challenge"
+        },
+        {
+          "type": "p",
+          "text": "The product needed to appeal to two audiences at once: children who wanted fun, interactive stories, and parents who needed to trust the platform enough to subscribe. Kyte also had to design and build a full reading app, not just a marketing site, supporting features like personalized character names, choice-based narratives, and read-aloud audio."
+        },
+        {
+          "type": "h2",
+          "text": "Solution"
+        },
+        {
+          "type": "p",
+          "text": "Kyte built a playful, illustration-forward website to introduce the brand and drive signups, paired with a dedicated app where children read, personalize, and interact with stories. Features like the “Power of Choice” narrative branching, name personalization, and “Read to Me” audio were designed and built end to end, alongside a gifting flow for parents to send books as vouchers."
+        },
+        {
+          "type": "h2",
+          "text": "Design System"
+        },
+        {
+          "type": "p",
+          "text": "The visual language leans into whimsical, storybook-style illustration and warm colors to appeal directly to children, while parent-facing sections (subscriptions, gifting, FAQs) use a cleaner, more reassuring layout to build trust."
+        }
+      ],
+      "source": "Case Studies/Kyte Case Studies Consolidated.docx"
+    }
+  ],
+  "articles": [
+    {
+      "slug": "sole-identity-how-sneaker-culture-cracked-the-code-on-branding-before-brands-did",
+      "title": "Sole Identity: How Sneaker Culture Cracked the Code on Branding Before Brands Did",
+      "description": "Sneaker brands built meaning before most brands figured out what meaning was. Here's what they got right, and what every brand can learn from it.",
+      "author": "Tanmay Sharma",
+      "category": "Design News, Brand Storytelling",
+      "cover": {
+        "decoding": "async",
+        "width": 1456,
+        "height": 816,
+        "sizes": "(min-width: 1400px) max(622.2222px, 320px), (max-width: 809.98px) max(calc(max(max(min(max(100vw - 64px, 1px), 1200px), 1px), 1px) - 32px), 320px), (min-width: 810px) and (max-width: 1399.98px) max(calc(max(max(min(max(100vw - 64px, 1px), 1200px), 1px), 1px) - 32px), 320px)",
+        "srcset": "/assets/optimized/5127959920378b-480.webp 480w, /assets/optimized/5127959920378b-960.webp 960w, /assets/optimized/5127959920378b-1440.webp 1440w",
+        "src": "/assets/optimized/5127959920378b-1440.webp",
+        "alt": "person holding black rotary telephone",
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/5DtlMASjfi47Q3FFHUL6x53hXM--1583e928dc09.png"
+      },
+      "paragraphs": [
+        "In branding, the hardest thing to manufacture is meaning.",
+        "You can spend millions on campaigns, hire the sharpest creatives, build the most coherent visual identity and still end up with something that doesn't stick. Because meaning isn't designed in a boardroom. It's built in culture. Lived, worn, argued over, and adopted.",
+        "Sneaker brands (primarily Nike) figured this out decades before most brands caught up. No focus groups. No brand guidelines. Just a pair of shoes that started carrying more weight than any product could have planned for; identity, aspiration, tribe, memory, rebellion.",
+        "That's the case study. And it's worth studying closely.",
+        "I.Function Was Just the Prototype.",
+        "Go back to the beginning and sneakers had one job: performance. You laced them up, you played, you won or lost, you went home. That was the whole deal.",
+        "Then 1985 happened.",
+        "Nike put Michael Jordan in a pair of black-and-red high-tops that violated the NBA's uniform policy. The league fined him $5,000 every single game he wore them. Nike paid every fine without blinking, and turned the whole controversy into an ad campaign. The word they used? BANNED.",
+        "That clash with NBA regulations transformed the Air Jordan 1 from a mere piece of sports equipment into a symbol of rebellion, freedom, and self-expression. It was no longer a basketball shoe. It was a statement. It told you something about the person wearing it; that they didn't bow to rules they didn't believe in.",
+        "Nike projected 100,000 pairs in the first year. They sold 1.5 million pairs in the first six weeks.",
+        "That number didn't just represent sales. It represented an entire generation of kids who wanted to be near something that felt bigger than sport. They couldn't dunk like Mike. They couldn't fly. But they could lace up the same shoes. And somehow, that mattered.",
+        "The Air Jordan 1 was the first to blur the lines between performance, style, and identity. That's why it matters, because it changed what sneakers could mean.",
+        "Once that line blurred, it never came back.",
+        "II. The Street Wrote the Brief.",
+        "Sport gave sneakers ambition. Hip-hop gave them a voice.",
+        "In 1986, three guys from Queens wrote a song about their shoes. Not a metaphor for their shoes, not a song featuring their shoes as a prop, but a song about their Adidas. Unlaced. Shell-toed. Worn everywhere from the Bronx to the stage at Live Aid.",
+        "DMC explained it plainly: there was a local doctor going around calling kids who wore Adidas and gold chains \"thugs\" and \"low-lifes.\" So Run-DMC wrote \"My Adidas\" to throw it back in his face. \"You can't judge a book by its cover.\"",
+        "The song became an anthem. The sneaker became an armor.",
+        "At a sold-out Madison Square Garden show, the group called out to the crowd to hold up their Adidas. 40,000 people lifted their sneakers in the air. An Adidas executive was in the building. Within days, Run-DMC became the first hip-hop group to receive a million-dollar endorsement deal.",
+        "What happened next changed the industry permanently. Before this, athletic brands mainly focused on signing athletes. Run-DMC proved that musicians and cultural icons could be just as influential in selling sneakers, setting the stage for every artist-brand collaboration that followed.",
+        "This is where sneakers became cultural currency. Not just something you wore. Something you spent, something you stacked, something you used to say I'm from here, I belong here, I built something.",
+        "Fast forward thirty years and Kanye West walks into a room at Adidas with a vision that had nothing to do with sport. What started as a creative collaboration between Adidas and Kanye West evolved into a cultural phenomenon that shaped fashion, music, and sneaker culture worldwide. The Yeezy Boost 350 didn't look like any sneaker that had come before it. It looked like the future, or someone's anxious, beautiful vision of it. Limited releases made Yeezys some of the most valuable sneakers on the resale market. The scarcity wasn't a flaw in the system. It was the system. Owning them said something. Being one of the few who got a pair, that said even more.",
+        "Hip-hop didn't just wear sneakers. It rewrote what wearing them meant.",
+        "III. Cities Speaking in Kicks.",
+        "Every city has a sneaker language. If you know how to listen, you can hear it clearly.",
+        "In New York City, a fanatical coalition of basketball players, graffiti writers, break-dancers, and rappers devoted themselves to the stylistic possibilities of sneakers; making cults of certain models, coloring and customizing them, devising elaborate lacing patterns. New York didn't just wear sneakers. It built rituals around them.",
+        "The Bronx contributed hip-hop heritage and graffiti language. Brooklyn infused experimental art and skate aesthetics. Queens brought basketball roots and cultural cross-pollination. Manhattan connected street and high fashion. Four boroughs, four dialects of the same conversation.",
+        "LA had a different conversation entirely. The Nike Cortez on the West Coast wasn't just a sneaker, it was a signal. Every gang in LA wore the Nike Cortez. It was a way to identify yourself, your territory, your allegiance. Schools banned them in the early 1990s because they were deemed gang-related. That's a shoe carrying so much social weight that wearing the wrong pair in the wrong neighborhood wasn't a fashion mistake. It was a safety issue.",
+        "This is the part people outside the culture miss. Sneakers were never just aesthetics. They were a language of belonging, coded and specific. They told you who was with who, where someone was from, what they were willing to protect. The Air Force 1 said \"New York hustle.\" The Cortez said \"LA streets.\" The Jordan said \"I'm in the game, one way or another.\"",
+        "And today, as gang affiliations have shifted and cities have evolved, those shoes haven't lost their meaning, they've just opened their meaning up. Now the Cortez just signifies LA culture. You've got people from all walks of life wearing it. It's safe again. But it carries the memory of where it's been.",
+        "Every pair carries its history forward.",
+        "IV. When the Product Shapes the Person.",
+        "Here's where it gets personal.",
+        "There's a specific feeling; if you've had it, you know it instantly. Buying your first pair of sneakers with your own money. Not a gift, not borrowed cash. Your money. Hours of work turned into something you can lace up and walk out in. Something that's entirely, completely yours.",
+        "That first-salary pair hits differently than any sneaker you've bought since. It's not really about the shoe. It's about what it proves.",
+        "Our team member Tanmay puts it best:",
+        "The Jordan 4 was the first silhouette that made me stop scrolling. I was just getting into the culture, watching YouTube breakdowns, reading forums, and it just stayed in my head. Not urgently. Quietly. A someday thing.",
+        "In college, it wasn't happening. I knew that without doing the math. So I filed it away.",
+        "Then came the internships. The small paychecks. I wasn't saving aggressively, but I was saving towards something. Somewhere between late nights and early commutes, the Jordan 4 became less of a want and more of a checkpoint. Something I was moving toward without making it dramatic.",
+        "I bought them close to my birthday. No big moment. No ceremony. Just a box and a silent realisation that dawned on me.",
+        "By the time I had them, the shift had already happened. It was never really about the sneaker. I had already become the person who could own it.",
+        "And that's the thing about sneakers.",
+        "Sneakers get attached to moments. The pair you wore when something big happened. The ones you bought right before a breakup and couldn't wear for a year after. The ones you laced up the morning everything changed, a new job, a new city, a new version of yourself trying to get out of the old one. The ones sitting in a box somewhere that you can't throw out because throwing them out feels like erasing the memory.",
+        "Some people journal. Some people photograph every moment. Some people wear theirs.",
+        "A sneaker collection isn't vanity. It's a timeline. Each pair is a chapter you can hold in your hands, scuffed where the story got rough, creased where you lived in it hard, box-fresh where you're still waiting for the moment to happen.",
+        "That's something no other piece of clothing does in quite the same way. A shirt is a shirt. But a sneaker has a sole that hit actual ground, that walked through actual rooms, that carried you somewhere real.",
+        "V. Drop Culture Taught Brands What Ads Couldn't.",
+        "Here's the thing that brands eventually figured out, and some of them still haven't fully caught up with: You can't market your way into this.",
+        "Sneaker culture built its own economy on storytelling, and the stories had to be real. The drop culture. The midnight queues. The limited pairs. The collab that only makes sense if you understand both worlds that came together to make it. Every release tapped into nostalgia, design, exclusivity, and clout. But underneath all of that machinery was something simpler; the need for the sneaker to mean something.",
+        "Complex Sneakers didn't become the authority on sneaker culture because they were well-produced. They became the authority because they took the culture seriously. The history, the stories, the people who'd been holding it down before it became a billion-dollar market.",
+        "The resale economy confirmed what sneakerheads already knew. The resale market is estimated at $2 billion, expected to grow significantly, driven by collaborations, limited editions drops, and other factors. You don't build a multi-billion dollar secondary market for products that people are indifferent to. You build it for things that carry meaning people are unwilling to let go of.",
+        "People don't buy sneakers. They buy what the sneaker means. The story it tells. The world it's connected to. The version of themselves they feel like when they wear it.",
+        "That’s not strategy. That’s just how people work.",
+        "The brands that got this, really got it, not just as a strategy but as a genuine understanding of the culture that built something lasting. The ones that tried to manufacture the feeling without earning it are easy to spot. The community spotted them first.",
+        "VI. The Takeaway Is on Your Feet.",
+        "Sneaker culture didn't rise because people suddenly cared more about shoes. It rose because sneakers became one of the most honest things about a person. In a world where everything can be filtered, curated, performed, your pair tends to tell the truth.",
+        "The pair you reach for without thinking. The ones you wear until they're done. The ones you won't let anyone touch. The ones collecting dust because the moment they belonged to is over.",
+        "What we wear on our feet traces a line through who we were, who we wanted to be, and who we became. Across basketball courts and hip-hop stages. Through blocks and neighborhoods. Through first jobs and last heartbreaks.",
+        "The next time you walk into a room, look down.",
+        "Not at other people's shoes. At your own.",
+        "Are you just wearing them?",
+        "Or are they saying something?"
+      ],
+      "source": "Blogs/Kyte_Blogs_SEO_Ready_Batch.docx"
+    },
+    {
+      "slug": "when-advertising-was-unhinged-why-early-2000s-tech-marketing-still-hits-different",
+      "title": "When Advertising Was Unhinged: Why Early 2000s Tech Marketing Still Hits Different",
+      "description": "For a brief window in the late 1990s and early 2000s, tech brands chased discomfort over clarity. Here is the strategy underneath the shock value, and what it says about advertising today.",
+      "author": "Tanmay Sharma",
+      "category": "Design News, Advertising History",
+      "cover": {
+        "decoding": "async",
+        "width": 1456,
+        "height": 816,
+        "sizes": "(min-width: 1400px) max(622.2222px, 320px), (max-width: 809.98px) max(calc(max(max(min(max(100vw - 64px, 1px), 1200px), 1px), 1px) - 32px), 320px), (min-width: 810px) and (max-width: 1399.98px) max(calc(max(max(min(max(100vw - 64px, 1px), 1200px), 1px), 1px) - 32px), 320px)",
+        "srcset": "/assets/optimized/8b4c90258778da-480.webp 480w, /assets/optimized/8b4c90258778da-960.webp 960w, /assets/optimized/8b4c90258778da-1440.webp 1440w",
+        "src": "/assets/optimized/8b4c90258778da-1440.webp",
+        "alt": "person holding black rotary telephone",
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/3CFxb8Nvja0ycSFOqC89Rei0Prg--1583e928dc09.png"
+      },
+      "paragraphs": [
+        "In advertising, the toughest pill to swallow often gives the best high, discomfort sells the most.",
+        "You can hire the sharpest creatives, build the most coherent visual system, run the campaign through every approval layer and still end up with something safe. Something forgettable. Because discomfort isn't a tone you dial up in a brief. It's a decision you make about what you're willing to risk.",
+        "For a brief, strange window in the late 1990s and early 2000s, tech brands made that decision constantly. Xbox. PlayStation. Nokia. Game Boy. Sony. They made advertising that could genuinely unsettle you. That asked nothing of you except to stop and look and had no interest in being liked or accepted.",
+        "That era is worth studying closely. Not for the shock value, but for the strategy underneath it.",
+        "I. Before the Dashboard, Instinct Ruled.",
+        "Going back to the beginning, advertising had a different problem to solve. It wasn’t  performance, it was attention.",
+        "The early 2000s were a transitional moment in media. Digital infrastructure existed but hadn't yet hardened into the pipeline it is today. Brands still lived and died on print, outdoor, and television. There were no real-time performance metrics, no click-through rates, no conversion funnels refreshed hourly by someone in a growth team.",
+        "What filled that vacuum was something harder to manufacture: Intuition. Creative decisions were driven by cultural sensing, art direction instinct, and the collective nerve of whoever was brave enough to sign off. The feedback loop was slow, weeks, sometimes months, but the creative commitment was total.",
+        "This matters because constraint shapes output. When you can't measure in real time, you have to believe in the work. You have to make something worth believing in. That's not a romantic notion. It's a structural one. The media environment of that era didn't reward caution. It rewarded stopping power.",
+        "And the brands that understood this built a visual language that hasn't yet been replicated.",
+        "II. Designing Discomfort: The Visual Logic Behind the Provocation.",
+        "These weren't just bold ads. They were built on a coherent, if rarely articulated visual logic. Look across them as a set and the patterns emerge fast.",
+        "The human body treated as hardware. Transparent clothing showing product against skin. PlayStation controller symbols scarred into forearms. A woman's tongue displaying PS2 buttons. The body wasn't the subject, it was the medium. It was the surface on which the product's meaning was written.",
+        "Clinical, synthetic lighting that said: this is precise, controlled, slightly inhuman. Cold blues and teal-rendered skin. Deep blacks with no ambient warmth. Hyperreal textures; skin too close, plastic that gleams, metal that feels surgical. These ads didn't soften materials. They magnified them until they became unsettling.",
+        "And always: minimal copy. \"Now the difference is perfectly clear.\" \"Over 150 games. With more being conceived every day.\" The words were almost secondary. The image had already done what it needed to do.",
+        "The strategy underneath the aesthetic was simple. Create stopping power through visual tension. Replace clarity with intrigue. Make the viewer decode the ad. Because anything that makes you work leaves a deeper mark than anything that makes it easy.",
+        "These ads weren't designed to be understood instantly, they were designed to be remembered.",
+        "III. Identity Over Specs: How Brands Learned to Sell Transformation.",
+        "Not one of these ads leads with a specification. No megapixels. No battery life. No processor speed. The functional case for the product is treated as irrelevant or at minimum, secondary to something far more powerful: What owning this thing says about you.",
+        "Gaming was sold as immersion, addiction, altered states. A PS1 controller raised above scarred forearms isn't selling a game console. It's selling dedication, the physical evidence of complete absorption. Marks that the culture leaves on the body of someone who's fully immersed in it.",
+        "Audio was sold as something sensual and bodily. Sony's headphones on a blue-rendered, featureless human head aren't selling clarity of sound. They're selling the idea that sound and body can merge into something post-human. The product isn't a device. It's a transformation.",
+        "Mobile was sold as rebellion. Nokia's \"Look Your Best\" campaign with its deliberately strange-looking model makes the argument plainly. Conventional attractiveness is irrelevant. Wear your own style. Live your own style. The phone is a vehicle for that position, not the point of it.",
+        "In each case, the product recedes and the identity it enables moves forward. That's lifestyle branding before the term became a cliché. Each product category mapped to a psychological state, not a feature set. The product wasn't the hero, the transformation it promised was.",
+        "IV. Bold Wasn't Brave, It Was Structural.",
+        "Xbox's early campaign depicted controllers arranged as sperm around the glowing green logo-egg. The tagline: \"Over 150 games. With more being conceived every day.\" It's biologically explicit in implication, immediately understood, and virtually impossible to approve through any modern brand safety framework. It ran. It worked. Not because the people behind it were reckless, but because the risk calculus was structurally different.",
+        "No social media amplification loops meant there was no instant, scaled public reckoning for an ad that overstepped. No real-time sentiment dashboards. No brand safety tools. Fewer stakeholders in the approval chain. Brands competed for cultural salience rather than engagement rate benchmarks. And because feedback came slowly through sales cycles and focus groups rather than hourly reports, there was space to take a position and hold it.",
+        "The Nintendo Game Boy Pocket campaign captures this cleanly. \"Keep it in your pants.\" Three words. A pair of denim pockets. An actual size notation. No features. No game screenshots. Just a double entendre deployed with total confidence, distributed nationally. The only question being asked wasn't whether it would offend someone. It was whether it would be remembered.",
+        "It was.",
+        "V. Algorithm Becoming the Creative Director",
+        "As digital platforms matured, they brought with them the infrastructure for measurement and over time, reshaped what \"good\" looked like. A click became evidence, a conversion became proof, an impression became a decimal point in a cost model. A/B testing produced safer iterations, each one fractionally better than the last at a narrowly defined outcome. Brand safety frameworks, designed to protect brands from harmful association, had the secondary effect of removing anything genuinely strange from circulation.",
+        "The result is a creative landscape that by every measurable metric performs better, and by most unmeasurable ones, matters less. Visuals became flatter, faster, more digestible. Comprehension was prioritized over contemplation, the conceptual depth that made those early ads linger in memory was traded for the kind of instant clarity that earns a half-second glance on a feed.",
+        "Engagement rate measures friction removed and says nothing about memory formed. Conversion rate measures action taken now, nothing about the trust accumulated over years. The brands that dominated culturally in this era; Sony, Nintendo, PlayStation & Xbox were building something that takes years to register in a spreadsheet and moments to destroy if you stop investing in it.",
+        "The industry didn't lose creativity. It deprioritized risk. That's a different problem, and a harder one, because it's not a failure of talent. It's a failure of the incentive structure.",
+        "VI. Forgotten Gems; The Industry’s Middle Child",
+        "Looking back, what's worth recovering is the intent. The underlying conviction that made the best of this work genuinely effective.",
+        "Distinctiveness beats perfection. A polished ad that looks like every other polished ad in its category is invisible. The Game Boy’s \"More fun than a ferret down your trousers\" campaign is technically unsophisticated, but is impossible to forget.",
+        "Discomfort can drive recall, the slight wrongness of an image, a controller raised by scarred arms, controller buttons as pills on a tongue;  creates friction. That friction is memory-forming in a way that comfort simply isn't.",
+        "Strong art direction is a competitive advantage. Visual identity cannot be A/B tested into existence. It requires conviction, direction, and the willingness to hold a position before the data has caught up to it.",
+        "Not everything needs to be instantly understood. Some of the most valuable brand work rewards a second glance. Designing for depth rather than immediate comprehension is a choice, and also a differentiator. Applying performance logic to campaign work is exactly where distinctiveness dies.",
+        "VII. Would These Ads Survive Today?",
+        "It's the right question. And it doesn't have a clean answer.",
+        "Some of these ads failed even then, they confused rather than provoked, or crossed lines that weren't worth crossing. Others were genuinely extraordinary: sharp, strange, culturally resonant in a way that justified every risk taken to produce them.",
+        "Would internal teams approve them through today's review processes? Would the platforms distribute them without content restrictions? Would the audience engage, or organize against them? Would the data, in the first 48 hours, suggest they were working at all?",
+        "The honest answer to most of these is: probably not.",
+        "And that tells us something important. Not about the ads. About the system that now surrounds creative work.",
+        "The next time a campaign goes through seventeen rounds of feedback and comes out the other side sanded smooth and unrecognizable, don't blame the brief.",
+        "If the answer is no, the problem isn't the work. It's the system."
+      ],
+      "source": "Blogs/Kyte_Blogs_SEO_Ready_Batch.docx"
+    },
+    {
+      "slug": "what-your-playlist-says-about-you-(and-why-brands-should-be-listening)",
+      "title": "What Your Playlist Says About You (And Why Brands Should Be Listening)",
+      "description": "A playlist is a self-portrait, and most brands have no idea what theirs sounds like. Here is what DJs and curators understand about voice that most content teams don't.",
+      "author": "Rohan",
+      "category": "Design News, Brand Voice",
+      "cover": {
+        "decoding": "async",
+        "width": 1456,
+        "height": 816,
+        "sizes": "(min-width: 1400px) 320px, (min-width: 810px) and (max-width: 1399.98px) 320px, (max-width: 809.98px) 320px",
+        "srcset": "/assets/optimized/1a27c8086af020-480.webp 480w, /assets/optimized/1a27c8086af020-960.webp 960w, /assets/optimized/1a27c8086af020-1440.webp 1440w",
+        "src": "/assets/optimized/1a27c8086af020-1440.webp",
+        "alt": "person holding black rotary telephone",
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/2HEcC0XUlfoMKCH2KXAkS6iHUM--1583e928dc09.png"
+      },
+      "paragraphs": [
+        "Walk into someone’s house. Ask them to put something on.",
+        "The first ten seconds tell you more about them than an hour of conversation would. Not just what they like. How they think. Whether they care about transitions or just hit shuffle. Whether the music is for you or for them. Whether they’ve thought about this moment before it arrived.",
+        "A playlist is a self-portrait. And most brands have no idea what theirs sounds like.",
+        "I. The Mixtape Was Never Really About Music",
+        "Before streaming made it effortless, making someone a mixtape cost something. Time, mostly. But also attention. You had to know the person well enough to sequence sixty minutes of songs that made sense together, that built toward something, that didn’t betray your taste by being too obvious or lose them by being too obscure.",
+        "The mixtape was a form of communication. A way of saying things you couldn’t say directly. A way of showing someone how you saw the world and quietly asking if they saw it the same way.",
+        "Nobody made a mixtape by accident. Every song was a decision. Every transition was intentional. The whole thing was a considered, carefully constructed version of how you wanted to be understood.",
+        "That’s what brand voice actually is. Or should be. Not a tone of voice document. Not a list of adjectives. A considered, sequenced, intentional way of showing up that tells people something real about who you are before you’ve made your pitch.",
+        "II. The Algorithm Knows What You Like. It Doesn’t Know Who You Are.",
+        "Spotify’s Discover Weekly is genuinely impressive. It finds music you didn’t know you wanted with unsettling accuracy. It knows your patterns, your tempo preferences, the sonic textures you return to. It is very good at giving you more of what you already are.",
+        "What it can’t do is surprise you into becoming something new. It can’t make the left turn that a person with genuine taste and genuine knowledge of you would make. It optimises for comfort. For familiarity. For the next logical step.",
+        "A lot of brand content works exactly like this. Optimised for what performed well last time. Built around what the data says the audience responds to. Safe, consistent, never quite memorable. It gets engagement the way Discover Weekly gets streams. Passively. Without anyone really choosing it.",
+        "The curators who built real audiences, the ones people actually followed and trusted, did something different. They had a point of view. They made choices the algorithm wouldn’t have made. They were willing to put something unexpected in the sequence because they understood the listener well enough to know it would land.",
+        "That’s what separates brand communication that builds something from brand communication that just maintains something.",
+        "III. Sequencing Is Strategy",
+        "Here’s something DJs understand that most content teams don’t.",
+        "The song matters. The order matters more.",
+        "You can have ten great tracks and destroy a set by sequencing them wrong. Open too hard and you lose people before they’re ready. Close too early and the energy dies. Drop the wrong song at the wrong moment and the whole room shifts in a direction you can’t recover from.",
+        "A brand’s content works the same way. What you say first shapes how everything after it is received. What you lead with tells people what to expect. If your first impression is a hard sell, every subsequent piece of content carries that shadow. If your first impression is generous, interesting, and not obviously self-serving, you’ve bought yourself something valuable. Attention that’s actually willing to stay.",
+        "Most brands treat their content like a playlist where every song is the same tempo, the same vibe, the same ask. Nothing builds. Nothing releases. Nothing surprises. It’s the audio equivalent of a brand that sends the same email every week and calls it a content strategy.",
+        "Sequencing is strategy. What you say, and when, and what you say right after it, is a craft. The brands that get this build audiences that actually look forward to what’s coming next.",
+        "IV. Genre Is a Promise",
+        "When someone puts on jazz in a quiet apartment at midnight they’re not just playing music. They’re making a choice about what kind of experience this is going to be. The genre sets an expectation. It tells everyone in the room something about the vibe, the pace, the register they should be operating in.",
+        "Genre is a promise. And breaking it without warning is a form of betrayal.",
+        "Brands make genre promises all the time without realising it. The aesthetic of the Instagram grid. The tone of the first email. The way the website copy is written. All of it tells people what kind of brand experience this is going to be. What register to expect. How seriously to take things. How human this is going to feel.",
+        "And then some brands pivot. Redesign everything. Shift tone completely. Decide they want to be something different. And wonder why their most loyal audience feels like something was taken from them.",
+        "You can evolve. You should evolve. But evolution that respects the original genre feels like a natural progression. Evolution that ignores it entirely feels like a different artist dropped an album under your favourite band’s name.",
+        "Your audience knows the difference immediately.",
+        "V. The Skip Button Is Brutal and Honest",
+        "Nobody has to stay.",
+        "That’s the thing streaming made undeniable. Before, if a song came on the radio you didn’t love, you’d sit through it. It was passive. Now the skip button is always right there and the cost of using it is nothing. The threshold for keeping someone’s attention has never been lower.",
+        "Brands are operating in that same environment and many of them still behave like it’s a radio era. Like the audience has to sit through it. Like exposure alone is worth something.",
+        "It isn’t. Not anymore.",
+        "Every piece of content a brand puts out is competing with everything else available at that exact moment. The skip button exists in every format, the scroll, the swipe, the tab close, the unfollow. Earning someone’s continued attention is an active thing, not a passive one. It requires consistently giving people a reason to stay that has nothing to do with how loudly you showed up.",
+        "The curators with real audiences earned it the same way. Not by being everywhere. By being worth returning to.",
+        "VI. What’s Your Playlist Actually Saying",
+        "The brands people genuinely love don’t feel like marketing. They feel like taste. Like there’s someone behind it who actually cares about what goes in and what gets left out. Who thinks about the sequence. Who understands the genre they’re working in and respects it enough to do something interesting with it.",
+        "That’s not a production value question. It’s not a budget question. It’s a question of whether anyone making the decisions actually has a point of view, or whether they’re just hitting shuffle and hoping the algorithm figures it out.",
+        "A playlist built with intention sounds completely different from one that wasn’t. Your audience can tell. They can always tell.",
+        "The question is whether you’re curating or just playing songs."
+      ],
+      "source": "Blogs/Kyte_Blogs_SEO_Ready_Batch.docx"
+    },
+    {
+      "slug": "the-menu-is-the-message",
+      "title": "The Menu Is the Message",
+      "description": "Read a restaurant's menu for two minutes and you already know what it thinks of itself, and of you. Most brands make the same positioning choices without realising it.",
+      "author": "Rohan",
+      "category": "Design News, Brand Positioning",
+      "cover": {
+        "decoding": "async",
+        "width": 1456,
+        "height": 816,
+        "sizes": "(min-width: 1400px) 320px, (min-width: 810px) and (max-width: 1399.98px) 320px, (max-width: 809.98px) 320px",
+        "srcset": "/assets/optimized/2211e24604a7b2-480.webp 480w, /assets/optimized/2211e24604a7b2-960.webp 960w, /assets/optimized/2211e24604a7b2-1440.webp 1440w",
+        "src": "/assets/optimized/2211e24604a7b2-1440.webp",
+        "alt": "person holding black rotary telephone",
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/V6GisVrSNPlgVmpSqWG5TaELugg--1583e928dc09.png"
+      },
+      "paragraphs": [
+        "Sit down at a restaurant you’ve never been to before. Don’t look at the décor. Don’t look at the staff. Don’t look at who else is eating there.",
+        "Just read the menu.",
+        "Give it two minutes. You’ll know exactly what kind of place this is. What it thinks of itself. What it thinks of you. Whether it’s trying to impress you or trying to feed you. Whether it was designed by someone with a point of view or assembled by a committee trying to cover every possible preference.",
+        "The menu is a brand document. Most restaurants just don’t know it yet.",
+        "I. What You Include Is a Statement. What You Leave Out Is Louder.",
+        "A menu with eighty items is telling you something. So is a menu with eight.",
+        "The long menu says: we want everyone to find something. We are afraid of turning anyone away. We have prioritised range over conviction. The kitchen is probably struggling.",
+        "The short menu says: we know what we’re good at. We made choices. We are willing to lose customers who want something we don’t do because we’d rather be excellent at a few things than adequate at many.",
+        "That’s not just a culinary philosophy. That’s a brand positioning decision playing out in real time, right there in your hands before you’ve ordered anything.",
+        "The brands that try to be everything to everyone produce the same result as the eighty item menu. A lot of options that feel like they were included out of anxiety rather than conviction. A product that’s hard to describe because it hasn’t decided what it is. An audience that’s vaguely satisfied but never genuinely loyal.",
+        "Editing is confidence. The willingness to leave things off is the willingness to stand for something. Most brands aren’t willing. The menu always shows you who is.",
+        "II. The Language Does More Work Than You Think",
+        "Two restaurants can serve the same dish. One describes it in three words. One describes it in forty, with origin stories and preparation methods and a note about the farmer.",
+        "Neither is wrong. Both are telling you something.",
+        "The three word menu is telling you: we trust the food to speak. We don’t need to sell you on it. You either know or you’ll find out. There’s a confidence there that either reads as sophistication or arrogance depending on how the rest of the experience lands.",
+        "The forty word description is telling you: we want you inside the story before the plate arrives. We want the eating to be an informed experience. We believe context changes flavour, and we’re probably right.",
+        "This is copywriting. Genuinely. The way a menu describes a dish is the same decision a brand makes every time it writes anything. How much context does the audience need. How much do you trust the product to carry itself. Where does explanation become overselling. Where does brevity become coldness.",
+        "The best menus, like the best brand copy, know exactly how much to say. And they know that knowing when to stop is the hardest part of writing anything.",
+        "III. Price Is a Positioning Statement",
+        "Nobody puts prices on a menu by accident.",
+        "The restaurant that lists no prices is telling you something. So is the one that bolds the prices larger than the dish names. So is the one that removes the currency symbol entirely, a known trick for making numbers feel less like money and more like just numbers.",
+        "Every pricing decision on a menu is a communication decision. It’s telling you what the restaurant thinks the relationship between you and the cost should feel like. Comfortable, transactional, invisible, aspirational.",
+        "Brands make these decisions constantly and most of them don’t think about them nearly carefully enough. Where the price appears on a product page. Whether you lead with the price or make someone work to find it. Whether your pricing structure feels like an invitation or a gate. All of it communicates something before a single purchase is made.",
+        "The restaurants that do this best make the price feel like the last thing you thought about. The ones that do it worst make it the first thing, and usually not in a good way.",
+        "IV. The Menu Nobody Reads Is Still Doing a Job",
+        "Walk into a high end omakase restaurant. There is no menu. The chef decides. You eat what arrives.",
+        "That’s still a menu. It’s just a menu that says: trust us completely. Surrender the decision entirely. We will take care of you.",
+        "That level of brand confidence is rare and genuinely hard to earn. It requires a reputation built carefully enough that people are willing to give up control. It requires consistency so reliable that the unknown feels safe rather than risky. Most brands couldn’t pull this off even if they tried, because the trust isn’t there yet.",
+        "But the brands that get there, the ones people follow without needing to know exactly what’s coming, built it the same way a restaurant earns the right to take the menu away. Slowly. Through repeated experiences that delivered exactly what they promised, or something better.",
+        "The no-menu menu is the ultimate brand statement. It only works when everything before it already said enough.",
+        "V. Specials Are a Content Strategy",
+        "The daily special exists for a reason beyond using up ingredients.",
+        "It creates urgency. It signals freshness. It gives regulars a reason to come back even when they already know the menu. It says: something is happening here today that wasn’t happening yesterday. This place is alive.",
+        "Brands that only publish evergreen content are running a restaurant with no specials. Solid menu, consistent quality, nothing that makes you feel like today specifically is worth showing up for.",
+        "The brands that understand the rhythm of evergreen and timely content are running the whole thing properly. The permanent menu tells you who they are. The specials tell you they’re paying attention to what’s happening right now. Both are necessary. One without the other is either a brand that feels frozen in time or one that feels like it has no real identity beyond reacting to the news cycle.",
+        "The specials work because the menu is already there. The menu works better because the specials remind you the kitchen is still thinking.",
+        "VI. Read the Menu Again",
+        "The next time you sit down somewhere, read the menu like it’s a brand deck.",
+        "Count the items. Read the descriptions. Notice the prices and how they’re presented. Notice what’s missing. Notice whether the whole thing feels like a series of considered decisions or a list of things someone was afraid to leave out.",
+        "Then ask the same questions about your own brand. What does your communication include out of conviction and what does it include out of anxiety. What are you describing in forty words that should be three. What have you left on the menu long past the point where it made sense.",
+        "The restaurants that last are the ones that know exactly what they’re serving and why. The ones that don’t are easy to spot. The menu always gives it away."
+      ],
+      "source": "Blogs/Kyte_Blogs_SEO_Ready_Batch.docx"
+    },
+    {
+      "slug": "the-wrap-is-the-campaign-what-car-camouflage-teaches-us-about-building-desire",
+      "title": "The Wrap Is the Campaign: What Car Camouflage Teaches Us About Building Desire",
+      "description": "Dazzle wraps on test cars were built to hide a car's body lines. Somewhere along the way, automakers figured out they also build desire, and stopped hiding.",
+      "author": "Anirudh",
+      "category": "Design News, Marketing Strategy",
+      "cover": {
+        "decoding": "async",
+        "width": 1456,
+        "height": 816,
+        "sizes": "(min-width: 1400px) 320px, (min-width: 810px) and (max-width: 1399.98px) 320px, (max-width: 809.98px) 320px",
+        "srcset": "/assets/optimized/1ffc317819fad6-480.webp 480w, /assets/optimized/1ffc317819fad6-960.webp 960w, /assets/optimized/1ffc317819fad6-1440.webp 1440w",
+        "src": "/assets/optimized/1ffc317819fad6-1440.webp",
+        "alt": "person holding black rotary telephone",
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/KHdeAOI4gQ3Dujbln2a5fWGEI--1583e928dc09.png"
+      },
+      "paragraphs": [
+        "Auto Industry × Marketing",
+        "The wrap is the campaign.",
+        "Dazzle wraps on test cars were built to hide a car's body lines. But somewhere along the way, automakers figured out they also build desire — and the two goals have never been separated since.",
+        "Feature · 7 min read",
+        "The swirling black-and-white pattern on a prototype car is the automotive industry's most effective double agent: hiding the product while simultaneously selling it.",
+        "Origin",
+        "Born in the trenches, refined on the road",
+        "The logic of dazzle camouflage traces back to World War I. British naval ships were painted with large, contrasting angular shapes not to make them invisible, but to confuse observers about their heading and distance. The same principle found its way onto test cars decades later — disorienting swirls and checkered patterns scramble the human eye's ability to read a car's surface depth and body lines. The wrap doesn't hide the car; it hides the design inside it.",
+        "Engineering teams and designers have warred over this since the beginning: designers want maximum coverage, engineers want minimum interference. Every foam pad bolted to a prototype to disguise a crease disrupts airflow, adds weight, and corrupts test data. The patterned vinyl wrap became the compromise — a skin that deceives, not a cage that obstructs.",
+        "The twist",
+        "When concealment became content",
+        "At some point, someone at a car company noticed that spy photos of their wrapped test mule were generating more editorial column inches than a press release. The wraps weren't just keeping secrets — they were creating a story that the internet was eager to tell for free.",
+        "01",
+        "Manufactured mystery",
+        "A wrapped car creates a riddle. Enthusiasts study every exposed detail — a headlight edge, a wheel arch — and forums ignite. Anticipation builds months before a reveal.",
+        "02",
+        "Free media coverage",
+        "Spy photographers earn up to $10,000 per photo. Automakers get the same coverage for free — or better, get it filtered through layers of speculation that amplify reach.",
+        "03",
+        "Controlled leaking",
+        "Some manufacturers deliberately test in visible locations. A camouflaged car driven past a busy city centre is a teaser trailer that costs nothing and looks organic.",
+        "04",
+        "Brand storytelling",
+        "The wrap itself becomes a canvas. Text, symbols, and visual identities embedded in the camo turn a test car into a rolling brand statement weeks before the car is even named.",
+        "Real-world examples",
+        "Brands that played the game perfectly",
+        "Rolls-Royce 2023",
+        "Spectre EV — the French Riviera gambit",
+        "Rolls-Royce took the dazzle wrap and turned it into literature. The vinyl covering the Spectre prototype wasn't a generic swirl — it was a dense cloud of text: phrases about the brand's history, fragments of mystique, whispers about the possibility of an all-electric Rolls. Then they drove it down the French Riviera in full view. Not a test drive. A performance. The press photographed it eagerly and wrote the story Rolls-Royce wanted told, but through the believable lens of an \"accidental\" sighting.",
+        "Brand narrative Earned media",
+        "Mustang RTR 2024",
+        "RTR Prototype — naval camo as a culture signal",
+        "The Mustang RTR prototype turned up wearing a one-off wrap directly inspired by WWI naval dazzle camouflage — a specific visual reference that spoke directly to the car's performance heritage and enthusiast audience. It wasn't an accident of engineering. It was a styling choice that became a talking point on every automotive website that ran the spy shots. The wrap itself said something about the car inside before a single spec was revealed.",
+        "Spy shot culture Cultural signal",
+        "Toyota / GRMN 2024",
+        "GRMN Supra — the Nürburgring cathedral",
+        "Testing at the Nürburgring is, for a performance car, the equivalent of a world premiere at a film festival. The GRMN Supra was caught there in partial camo — a \"bra and diaper\" setup — which in the performance world signals one thing: this car is being pushed hard, and it matters. The location did half the marketing work. Nürburgring spy shots carry an implicit endorsement of seriousness that no press release can manufacture.",
+        "Prestige by location Forum buzz",
+        "Nissan 2025",
+        "Altima prototype — saving a name by showing nothing",
+        "When a camouflaged sedan was caught near Nissan's Michigan headquarters in early 2025, it created something the brand desperately needed: hope. Rumours had called the Altima dead. The wrapped prototype — accompanied by a current-gen Altima, as if in comparison — said otherwise, without Nissan uttering a word. The mystery car became a story about the brand's survival. Concealment created the very narrative Nissan needed, at no communication cost.",
+        "Narrative control Speculation cycle",
+        "BMW 2025–26",
+        "i3 Sedan — the concept vs reality tension",
+        "BMW's forthcoming i3 sedan has been generating debate in spy shot form for months — enthusiasts dissecting every wrapped prototype, comparing it to the dramatic Neue Klasse concept from 2023, arguing about whether the production car will live up to it. BMW is getting that debate for free. The wrapped car keeps the conversation alive in a way that a reveal would collapse: once you see everything, there's nothing left to speculate about.",
+        "Pre-launch conversation Concept halo",
+        "The psychology",
+        "Why partial reveals outperform full ones",
+        "\"The value of a wrapped prototype isn't what it hides. It's what it makes you imagine.\"",
+        "Anticipation builds value",
+        "Research on consumer psychology consistently shows that the wait enhances the experience. A product you've anticipated for six months of spy shots feels more significant on reveal day than one you saw for the first time in a press release.",
+        "Speculation creates community",
+        "Wrapped prototype photos spawn forum threads, YouTube breakdowns, and Instagram polls. The audience does the distribution. Months of low-cost speculation add up to high-reach organic marketing that money can't quite replicate.",
+        "The reveal lands harder",
+        "When the wraps finally come off, there's a crowd ready — one that has already emotionally invested in the car's story. The reveal isn't an introduction; it's a resolution. And resolutions feel earned.",
+        "Exclusivity by default",
+        "Only those who follow closely see the wrapped prototypes. That creates tiers of engagement — the insiders who spotted the test mule vs. the broader public who sees the reveal. Brands get to reward enthusiast culture without explicitly doing so.",
+        "The fine line",
+        "When the game plays you",
+        "The tactic has its risks. Skilled spy photographers and photo-editing software can reconstruct a car's surfaces from swirl patterns — contrast adjustments and 3D modelling have made wraps less effective at pure concealment with every passing year. Ford's response in 2016 was a new \"static\" pattern, closer to television noise, designed to confuse cameras as well as eyes. The arms race between camo designers and spy photographers has never stopped.",
+        "And occasionally, the leak goes wrong. The 2021 Nissan Frontier's redesign was reportedly revealed early in a South African advertisement — an accidental reveal that bypassed months of careful wrap strategy in a single careless asset. The marketed mystery collapsed the moment the final design appeared out of sequence.",
+        "The dazzle wrap is one of the more elegant accidents in marketing history. It started as an engineering solution, became a cultural convention, and is now a fully intentional part of how cars are launched. The wrap is the first chapter of the story — and the best chapters always end on a question. What's underneath? The answer, when it finally comes, had better be worth the wait."
+      ],
+      "source": "Blogs/Kyte_Blogs_SEO_Ready_Batch.docx"
+    },
+    {
+      "slug": "how-dior-redefined-luxury-in-india-by-embracing-its-visual-language",
+      "title": "How Dior Redefined Luxury in India by Embracing Its Visual Language",
+      "description": "Most global luxury houses simplify when they enter India. Dior did the opposite, and the Mumbai showcase shows what amplification instead of adaptation actually looks like.",
+      "author": "Nithyashri",
+      "category": "Design News, Luxury Branding",
+      "cover": {
+        "decoding": "async",
+        "width": 1676,
+        "height": 938,
+        "sizes": "(min-width: 1400px) max(622.2222px, 320px), (max-width: 809.98px) max(calc(max(max(min(max(100vw - 64px, 1px), 1200px), 1px), 1px) - 32px), 320px), (min-width: 810px) and (max-width: 1399.98px) max(calc(max(max(min(max(100vw - 64px, 1px), 1200px), 1px), 1px) - 32px), 320px)",
+        "srcset": "/assets/optimized/cce4aaa779dcb0-480.webp 480w, /assets/optimized/cce4aaa779dcb0-960.webp 960w, /assets/optimized/cce4aaa779dcb0-1440.webp 1440w",
+        "src": "/assets/optimized/cce4aaa779dcb0-1440.webp",
+        "alt": "person holding black rotary telephone",
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/pjArrMiM6wSrk6T4F0bguIgS0--df75add58d11.png"
+      },
+      "paragraphs": [
+        "When most global luxury houses enter new markets, they usually follow a familiar pattern. They simplify. They strip back colour, reduce visual noise, and refine everything until it fits a global idea of minimal luxury.",
+        "But when Dior came to India, it didn’t do that.",
+        "It didn’t tone India down. It amplified it.",
+        "A showcase that felt like a shift, not just a show",
+        "One of the clearest expressions of this approach was Dior’s Mumbai showcase at the Gateway of India in 2023. On the surface, it was a fashion presentation. But in reality, it felt closer to a cultural conversation.",
+        "Instead of treating India as a market that needed editing, Dior treated it as a language worth engaging with in its full complexity.",
+        "Craft, embroidery, textiles, layering, ornamentation, elements that are often reduced in global luxury storytelling, were not removed or hidden. They were placed at the centre.",
+        "Because in India, visual richness is not excess. It is identity.",
+        "Why minimalism does not always translate",
+        "Western luxury has long been built on restraint. Clean lines, muted palettes, controlled storytelling. Luxury is often positioned as something that whispers rather than speaks loudly.",
+        "But India does not respond to restraint in the same way.",
+        "Here, aesthetics are naturally layered. Weddings are detailed and expressive. Festivals are saturated with colour. Everyday style often carries texture, pattern, and ornamentation.",
+        "So when global brands over simplify in India, the result is not always perceived as premium. It can feel disconnected.",
+        "Dior seemed to understand this.",
+        "Amplification instead of adaptation",
+        "What made Dior’s approach stand out was not localisation through simplification, but localisation through amplification.",
+        "It did not ask how to make India fit into a global luxury system. It asked how luxury could expand to include India.",
+        "That shift in thinking is important because it changes the direction of influence.",
+        "India is no longer just adapting to global design codes. It is actively reshaping them.",
+        "Controlled richness, not chaos",
+        "What Dior created was not visual overload. It was controlled by richness.",
+        "There was structure in how the narrative unfolded. Nothing felt random. But nothing felt stripped either.",
+        "It was a balance between restraint and expression, where detail was not removed in the name of elegance. It was curated with intent.",
+        "What this signals for global luxury",
+        "This moment reflects a larger change happening in global branding.",
+        "Luxury is moving away from one universal visual language. It is becoming more contextual, more adaptive, and more culturally aware.",
+        "Markets are no longer expected to fit into a single aesthetic system. Instead, they are influencing what luxury itself looks like.",
+        "India sits at the centre of this shift because its cultural relationship with colour, detail, and expression has always been inherently maximal.",
+        "Dior did not Indianise its identity in Mumbai.It expanded its definition of luxury. And in doing so, it proved something important. Minimalism is not the only language of sophistication. Sometimes, amplification is."
+      ],
+      "source": "Blogs/Kyte_Blogs_SEO_Ready_Batch.docx"
+    },
+    {
+      "slug": "why-sensory-branding-is-the-next-big-thing-in-2026",
+      "title": "Why Sensory Branding Is the Next Big Thing in 2026",
+      "description": "Branding is quietly shifting from how a brand looks to how it feels. Texture, scent, sound and weight are becoming the new differentiator, and beauty brands are already proving it.",
+      "author": "Nithyashri",
+      "category": "Design News, Branding Trends",
+      "cover": {
+        "decoding": "async",
+        "width": 1456,
+        "height": 816,
+        "sizes": "(min-width: 1400px) 320px, (min-width: 810px) and (max-width: 1399.98px) 320px, (max-width: 809.98px) 320px",
+        "srcset": "/assets/optimized/4d9023068dfd36-480.webp 480w, /assets/optimized/4d9023068dfd36-960.webp 960w, /assets/optimized/4d9023068dfd36-1440.webp 1440w",
+        "src": "/assets/optimized/4d9023068dfd36-1440.webp",
+        "alt": "person holding black rotary telephone",
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/cqbsTvpw45GESaL1x8RthPoOiw--1583e928dc09.png"
+      },
+      "paragraphs": [
+        "Branding used to live on screens. Then it moved into aesthetics. Now, it is quietly shifting into something far more powerful: sensation.",
+        "In 2026, the brands that will stand out are not just the ones that look good. They are the ones that feel good. Literally. Texture, scent, sound, weight, application, even packaging interaction is becoming part of how people evaluate value.",
+        "This is where sensory branding is taking over.",
+        "What sensory branding actually means",
+        "Sensory branding is not a trend layer added to marketing. It is the intentional design of how a brand is experienced through the senses.",
+        "It is the squeeze of a product, the sound of a cap closing, the weight of a bottle in your hand, the texture on your skin, the way packaging opens, even the subconscious satisfaction of how something smells before you understand what it does.",
+        "It is branding that bypasses explanation and goes straight into memory.",
+        "And in a world where attention is fragmented and visual sameness is increasing, sensation is becoming the new differentiator.",
+        "Why it is becoming important now",
+        "For years, digital branding has been visual-first. Instagrammable aesthetics, clean feeds, curated identity systems. But now, almost everything looks good. Visual polish is no longer rare.",
+        "What is rare is feeling.",
+        "Consumers are increasingly desensitised to visuals because they are overloaded with them. What stays longer is physical interaction.",
+        "This is why sensory branding is rising. It creates memory not through what people see, but through what their body remembers.",
+        "How brands like Gisou, Rhode, and Indē Wild are already doing it",
+        "Some of the clearest examples of sensory branding today are emerging in beauty.",
+        "Brands like Gisou, Rhode, and Indē Wild are not just selling products. They are designing experiences that start before application and continue after it.",
+        "Gisou leans heavily into texture and ritual. The honey-based formulations are not just functional, they are sensorially rich. The stickiness, the smoothness, the tactile satisfaction of use becomes part of the brand identity itself.",
+        "Rhode is built around simplicity, but not emptiness. The packaging weight, the soft-touch finishes, and the almost soothing minimal aesthetic create a calm physical experience that matches the emotional positioning of the brand.",
+        "Indē Wild is especially interesting in the Indian context. It brings in the sensory language of Ayurveda-inspired beauty, where smell, texture, and application are deeply tied to ritual. The experience is not just skincare, it is layered familiarity. Something that feels both modern and rooted at the same time.",
+        "None of these brands rely only on visual identity. They rely on interaction design for the body.",
+        "Why sensory branding works so deeply",
+        "The reason this shift is so powerful is because the human brain remembers physical experience more strongly than visual exposure.",
+        "Aesthetic branding can be forgotten the moment you scroll past it. Sensory experience stays longer because it creates what marketers call embodied memory. You don’t just see it. You feel it.",
+        "That is why certain products become “hard to replace” even when better alternatives exist. It is not logic. It is memory embedded in sensation.",
+        "What this means for branding in 2026",
+        "We are moving into a phase where branding cannot rely on visuals alone.",
+        "Packaging will matter more. Texture will matter more. Product interaction will matter more. Even micro-details like sound and weight will start influencing perception of value.",
+        "The future of branding is not just about being recognisable. It is about being physically memorable.",
+        "And in that shift, sensory branding is not just a trend. It is becoming a new competitive language."
+      ],
+      "source": "Blogs/Kyte_Blogs_SEO_Ready_Batch.docx"
+    },
+    {
+      "slug": "what-3-years-of-studying-marketing-really-taught-me-about-people",
+      "title": "What 3 Years of Studying Marketing Really Taught Me About People",
+      "description": "Most of what actually gets used at Kyte doesn't come from tools or trends. It comes from a handful of consumer psychology ideas that quietly changed how branding gets approached.",
+      "author": "Nithyashri",
+      "category": "Design News, Consumer Psychology",
+      "cover": {
+        "decoding": "async",
+        "width": 1456,
+        "height": 816,
+        "sizes": "(min-width: 1400px) 320px, (min-width: 810px) and (max-width: 1399.98px) 320px, (max-width: 809.98px) 320px",
+        "srcset": "/assets/optimized/d00c23aa7767f9-480.webp 480w, /assets/optimized/d00c23aa7767f9-960.webp 960w, /assets/optimized/d00c23aa7767f9-1440.webp 1440w",
+        "src": "/assets/optimized/d00c23aa7767f9-1440.webp",
+        "alt": "person holding black rotary telephone",
+        "style": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+        "original_src": "/assets/framerusercontent.com/images/tcedYL3dvqk3OoGRTghO5OmiHx8--1583e928dc09.png"
+      },
+      "paragraphs": [
+        "I didn’t really understand my marketing degree while I was doing it. Not in the way I understand it now.",
+        "Back then, it felt like a mix of theories, case studies, and frameworks you had to memorise for exams. But now, working in branding and content, I realise it was actually teaching me something much simpler. It was teaching me how people behave when they are not trying to explain themselves.",
+        "Most of what I use at Kyte doesn’t come from tools or trends. It comes from a few consumer psychology ideas I studied in college that have quietly stayed with me ever since.",
+        "Cognitive Dissonance and What Happens After People Buy Something",
+        "One of the first things we studied was cognitive dissonance.",
+        "At the time, it was defined as the discomfort people feel after making a decision when they are unsure if it was the right one. But in real life, it shows up everywhere.",
+        "People don’t just need convincing before they buy something. They need reassurance after they buy it.",
+        "That small shift changed how I think about branding completely. A brand doesn’t end at conversion. In many ways, that is where the real work begins.",
+        "The packaging, the tone, the communication after purchase, even the way a product continues to exist in someone’s life, all of it quietly works to reduce that doubt people rarely admit they feel.",
+        "The Elaboration Likelihood Model and Why Not Everything Needs to Be “Understood”",
+        "Another idea that stayed with me was the Elaboration Likelihood Model.",
+        "It sounds complex at first, but the idea is simple. People process information in two ways. Sometimes they think deeply about it. Most of the time, they don’t.",
+        "They respond to cues, emotion, familiarity, or visuals without consciously analysing anything.",
+        "This is something I see very clearly in content today. Not everything needs to be understood to work. Some things work because they are felt instantly.",
+        "And the mistake a lot of communication makes is trying to force everything into logic when behaviour is not always logical in the first place.",
+        "The Mere Exposure Effect and Why Familiarity Beats Novelty",
+        "The last one is the Mere Exposure Effect, and it is probably the simplest but most powerful thing I learned.",
+        "It basically says that people start to like things more simply because they see them more often. Not because those things change, but because familiarity builds comfort over time.",
+        "I think about this a lot when I see brands trying to constantly reinvent themselves. In reality, consistency often does more than creativity.",
+        "Recognition is stronger than novelty. People trust what feels familiar, even if they can’t explain why.",
+        "Final Reflection on Marketing Education and Real-World Thinking",
+        "Looking back, I don’t think my degree gave me answers. It gave me a way to observe people without taking their behaviour at face value.",
+        "It taught me that most decisions are not as intentional as they appear, and most preferences are not as rational as we like to believe.",
+        "And at Kyte today, that is still what I rely on the most.",
+        "Not trends, not tools, not platforms. Just a simple understanding that marketing is really about watching how people behave when they think no one is analysing them."
+      ],
+      "source": "Blogs/Kyte_Blogs_SEO_Ready_Batch.docx"
+    }
+  ]
+}
