@@ -15,6 +15,17 @@ const pages=Object.fromEntries(metadata.pages.map(p=>[p.path,{...p,canonical:ori
 const fixes={production,origin,email:site.business.email,pages,services,projects:site.projects.map(({slug,name,role,cover})=>({slug,name,role,image:cover.original_src})),smash:site.projects.find(p=>p.slug==='smash-guys').body};
 const replacements=[['mailto:dummy@mail.com','mailto:'+site.business.email],['sayhi@akihiko.com',site.business.email],['Office: Tokyo, Japan.','Bengaluru, India.'],['https://www.framer.com/@westhill-studio/','/contact'],['+1 34566 4565','Email Kyte'],['tel:+1 14945 78297','mailto:'+site.business.email],['tel:+1%2014945%2078297','mailto:'+site.business.email],['+91 9876543210','Talk to our team']];
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;');
+function extractDiv(source,attribute,value){
+ const marker=`${attribute}="${value}"`,at=source.indexOf(marker);if(at<0)throw new Error(`Missing Framer shell element ${marker}`);
+ const start=source.lastIndexOf('<div',at),tokens=/<\/?div\b[^>]*>/gi;tokens.lastIndex=start;let depth=0,match;
+ while((match=tokens.exec(source))){if(match[0][1]==='/')depth--;else if(!match[0].endsWith('/>'))depth++;if(depth===0)return source.slice(start,tokens.lastIndex)}
+ throw new Error(`Unclosed Framer shell element ${marker}`);
+}
+const framerSource=await readFile(resolve(root,'public/index.html'),'utf8');
+const framerSharedStyles=[...framerSource.matchAll(/<style\b[^>]*>[\s\S]*?<\/style>/gi)].filter(([block])=>/data-framer-(?:font-css|breakpoint-css|components)/i.test(block)).map(([block])=>block.replace(/^<style\b[^>]*>/i,'').replace(/<\/style>$/i,''));
+const framerShell={rails:extractDiv(framerSource,'class','framer-ysavql-container'),header:extractDiv(framerSource,'class','framer-1eevhei-container'),footer:extractDiv(framerSource,'class','framer-1fwug41-container'),symbols:extractDiv(framerSource,'id','svg-templates')};
+framerShell.header=framerShell.header.replaceAll('href="./','href="/').replace(/<a\b([^>]*data-framer-name="Variant 8"[^>]*)>/g,(tag,attrs)=>/\bhref=/.test(attrs)?tag:`<a${attrs} href="/contact">`);
+framerShell.footer=framerShell.footer.replaceAll('href="./','href="/');
 let modifiedModules=0;
 async function patchDirectory(dir){for(const entry of await readdir(dir,{withFileTypes:true})){const path=resolve(dir,entry.name);if(entry.isDirectory())await patchDirectory(path);else if(['.html','.mjs','.js'].includes(extname(path))){let before=await readFile(path,'utf8'),text=before;for(const [a,b]of replacements)text=text.replaceAll(a,b);if(path.endsWith('.mjs'))text=populateServiceModule(text);if(text!==before){await writeFile(path,text);if(path.endsWith('.mjs'))modifiedModules++}}}}
 await patchDirectory(output);
@@ -39,9 +50,10 @@ for(const [source,dest]of [['theme.js','kyte-theme.js'],['theme.css','kyte-theme
 // The design system lives outside the normal Framer route manifest, while
 // remaining available as a public, indexable HTML reference page.
 const designSystemDir=resolve(output,'.','design-system');await mkdir(designSystemDir,{recursive:true});
-const designSystemHtml=(await readFile(resolve(root,'framer-fixes/design-system.html'),'utf8')).replaceAll('{{SITE_URL}}',origin);
+const designSystemHtml=(await readFile(resolve(root,'framer-fixes/design-system.html'),'utf8')).replaceAll('{{SITE_URL}}',origin).replace('{{FRAMER_RAILS}}',framerShell.rails).replace('{{FRAMER_HEADER}}',framerShell.header).replace('{{FRAMER_FOOTER}}',framerShell.footer).replace('{{FRAMER_SVG_TEMPLATES}}',framerShell.symbols);
 await writeFile(resolve(designSystemDir,'index.html'),designSystemHtml);
 await cp(resolve(root,'framer-fixes/design-system.css'),resolve(output,'kyte-design-system.css'));
+await writeFile(resolve(output,'kyte-framer-shared.css'),framerSharedStyles.join('\n'));
 await writeFile(resolve(output,'robots.txt'),`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);
 await writeFile(resolve(output,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${[...manifest.pages.map(u=>new URL(u).pathname).filter(p=>p!='/product-home'),'/design-system'].map(p=>`<url><loc>${origin+p}</loc></url>`).join('')}</urlset>`);
 await writeFile(resolve(output,'build-info.json'),JSON.stringify({mode:'framer-components',production,pages:manifest.pages.length,patchedModules:modifiedModules},null,2));

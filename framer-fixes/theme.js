@@ -60,7 +60,7 @@
  }
  window.kyteApplyTheme=()=>{
   const path=location.pathname;
-  const full=path!=='/'&&!path.startsWith('/services')&&path!=='/product-home';
+  const full=path!=='/'&&!path.startsWith('/services')&&path!=='/product-home'&&path!=='/design-system';
   const roots=full?[document.body]:[];
   const dialog=document.querySelector('#template-overlay');if(dialog)roots.push(dialog);
   if(path==='/')for(const selector of ['.framer-b68tl','.framer-6mt1ho','.framer-v5qnca'])document.querySelectorAll(selector).forEach(el=>roots.push(el));

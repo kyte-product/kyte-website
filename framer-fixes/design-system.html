@@ -7,19 +7,21 @@
   <meta name="googlebot" content="index,follow,max-image-preview:large">
   <meta name="description" content="The Kyte design system: shared colors, type, surfaces, components and layout guidance.">
   <link rel="canonical" href="{{SITE_URL}}/design-system">
+  <link rel="stylesheet" href="/kyte-framer-shared.css">
+  <link rel="stylesheet" href="/kyte-fixes.css">
+  <link rel="stylesheet" href="/kyte-theme.css">
   <link rel="stylesheet" href="/kyte-design-system.css">
   <title>Design System · Kyte</title>
 </head>
-<body data-mode="dark">
-  <header class="ds-nav">
-    <a class="ds-brand" href="/" aria-label="Kyte home"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M0 0H18V18ZM22 0H40L22 18ZM40 22V40L22 22ZM18 22V40H0Z" fill="currentColor"/></svg><span>kyte <small>INTERNAL DESIGN SYSTEM</small></span></a>
-    <div class="nav-actions"><a href="/">Back to website <span aria-hidden="true">↗</span></a><button id="mode-toggle" type="button" aria-pressed="false">Switch to light</button></div>
-  </header>
-  <main>
+<body data-mode="dark" data-kyte-page-palette="dark">
+  <div id="main" class="framer-i3Mx4 framer-1y3h16u">
+    {{FRAMER_RAILS}}
+    {{FRAMER_HEADER}}
+    <main class="ds-main">
     <section class="ds-hero">
       <p class="eyebrow">KYTE / DESIGN SYSTEM / 01</p>
       <h1>A shared language<br>for the <span>work.</span></h1>
-      <div class="hero-note"><p>This page records the visual rules to use when designing or building Kyte pages. It is a working reference for the team, not a public landing page.</p><span class="status"><i></i>Internal reference · v1.0</span></div>
+      <div class="hero-note"><p>This page records the visual rules to use when designing or building Kyte pages. It is a working reference for the team, not a public landing page.</p><div class="hero-controls"><span class="status"><i></i>Internal reference · v1.0</span><button id="mode-toggle" type="button" aria-pressed="false">Switch to light</button></div></div>
     </section>
     <section class="ds-section" id="principles">
       <div class="section-head"><p class="eyebrow">00 / PRINCIPLES</p><h2>Quiet structure.<br>Expressive work.</h2></div>
@@ -35,7 +37,7 @@
       <p class="small-note">Existing Framer pages contain additional legacy component shades. When touching those components, map them to these tokens unless the artwork itself needs a distinct color.</p>
     </section>
     <section class="ds-section" id="type">
-      <div class="section-head"><p class="eyebrow">02 / TYPOGRAPHY</p><h2>Clear, measured type.</h2><p>Use the site’s loaded Telegraf family with a sans-serif fallback. Let the headline scale fluidly and keep supporting copy easy to scan.</p></div>
+      <div class="section-head"><p class="eyebrow">02 / TYPOGRAPHY</p><h2>Clear, measured type.</h2><p>Use the site’s loaded Geist family with a sans-serif fallback. Let the headline scale fluidly and keep supporting copy easy to scan.</p></div>
       <div class="type-specimen"><div class="type-meta"><span>DISPLAY / H1</span><code>clamp(48px, 8vw, 120px) · 1.0</code></div><h3 class="type-display">Design for<br>what’s next.</h3></div>
       <div class="type-pair"><div><div class="type-meta"><span>SECTION / H2</span><code>clamp(36px, 4.3vw, 64px) · 1.08</code></div><h3 class="type-h2">Make the complex feel clear.</h3></div><div><div class="type-meta"><span>BODY</span><code>16–18px · 1.6</code></div><p>Use body copy to add context and make the next step clear. Keep line lengths comfortable and avoid low contrast in either theme.</p></div></div>
       <div class="type-meta eyebrow-sample"><span>EYEBROW / LABEL</span><code>11px · uppercase · 0.14em tracking</code></div>
@@ -54,8 +56,11 @@
       <div class="principles layout-grid"><article><b>GUTTER</b><h3>24–120px</h3><p>Scale page edges with viewport width. Keep at least 24px on small screens.</p></article><article><b>SECTION SPACE</b><h3>64–128px</h3><p>Use generous vertical rhythm, reducing it on compact screens.</p></article><article><b>MOTION</b><h3>200–500ms</h3><p>Use motion to clarify state or focus. Respect reduced-motion preferences.</p></article></div>
       <div class="closing-note"><span class="closing-mark">K</span><p>When adding a new component, start with these tokens. Add a new one only when an existing token cannot express the intended role.</p></div>
     </section>
-  </main>
-  <footer class="ds-footer"><span>KYTE / DESIGN SYSTEM</span><a href="/">Return to Kyte ↗</a><span>Internal reference · Not for search</span></footer>
-  <script>const b=document.body,t=document.querySelector('#mode-toggle');t.addEventListener('click',()=>{const light=b.dataset.mode!=='light';b.dataset.mode=light?'light':'dark';t.setAttribute('aria-pressed',String(light));t.textContent=light?'Switch to dark':'Switch to light'});</script>
+    </main>
+    {{FRAMER_FOOTER}}
+  </div>
+  {{FRAMER_SVG_TEMPLATES}}
+  <script src="/kyte-config.js"></script><script src="/kyte-theme.js" defer></script><script src="/kyte-fixes.js" defer></script>
+  <script>const b=document.body,t=document.querySelector('#mode-toggle');t.addEventListener('click',()=>{const light=b.dataset.mode!=='light';b.dataset.mode=light?'light':'dark';b.dataset.kytePagePalette=light?'light':'dark';document.querySelectorAll('.framer-JMBgM').forEach(n=>n.dataset.kyteNavTone=light?'light':'dark');t.setAttribute('aria-pressed',String(light));t.textContent=light?'Switch to dark':'Switch to light'});</script>
 </body>
 </html>
