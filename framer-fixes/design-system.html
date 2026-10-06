@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="/kyte-framer-shared.css">
   <link rel="stylesheet" href="/kyte-fixes.css">
   <link rel="stylesheet" href="/kyte-theme.css">
+  <link rel="stylesheet" href="/kyte-layout-system.css">
   <link rel="stylesheet" href="/kyte-design-system.css">
   <title>Design System · Kyte</title>
 </head>
@@ -52,9 +53,9 @@
       <div class="component-grid"><article class="component-card"><p class="eyebrow">BUTTONS</p><div class="button-demo"><a class="primary-button" href="#components">Start a project <span>↗</span></a><a class="text-button" href="#principles">Explore the work <span>↗</span></a></div><p class="component-caption">Square corners · clear label · visible focus state</p></article><article class="component-card"><p class="eyebrow">SERVICE / WORK CARD</p><div class="work-sample"><span class="work-art"><b>K</b></span><div class="work-caption"><div><small>PRODUCT DESIGN</small><h3>Made to matter.</h3></div><span>↗</span></div></div></article><article class="component-card"><p class="eyebrow">FORM FIELD</p><label class="field-label">Your email<input type="email" placeholder="name@company.com"></label><p class="component-caption">Solid surface · full-opacity border · clear focus ring</p></article></div>
     </section>
     <section class="ds-section" id="layout">
-      <div class="section-head"><p class="eyebrow">05 / LAYOUT & MOTION</p><h2>Room to think.</h2></div>
-      <div class="principles layout-grid"><article><b>GUTTER</b><h3>24–120px</h3><p>Scale page edges with viewport width. Keep at least 24px on small screens.</p></article><article><b>SECTION SPACE</b><h3>64–128px</h3><p>Use generous vertical rhythm, reducing it on compact screens.</p></article><article><b>MOTION</b><h3>200–500ms</h3><p>Use motion to clarify state or focus. Respect reduced-motion preferences.</p></article></div>
-      <div class="closing-note"><span class="closing-mark">K</span><p>When adding a new component, start with these tokens. Add a new one only when an existing token cannot express the intended role.</p></div>
+      <div class="section-head"><p class="eyebrow">05 / LAYOUT & SPACING</p><h2>Room to think.</h2><p>Use the same page frame, content width, gutters and gap scale across every route. The layout stylesheet applies these shared rules to the Framer page containers.</p></div>
+      <div class="principles layout-grid"><article><b>PAGE FRAME</b><h3>1920px max</h3><p>Keep the full site shell centered and prevent the page from growing beyond the working frame.</p></article><article><b>CONTENT WIDTH</b><h3>1600px max</h3><p>Center section containers inside the page frame and let the gutter provide breathing room.</p></article><article><b>PAGE GUTTER</b><h3>22–96px</h3><p>Use clamp(22px, 5vw, 96px) on wider screens and 22px on compact screens.</p></article><article><b>SECTION SPACE</b><h3>64–120px</h3><p>Use clamp(64px, 7vw, 120px) for major vertical transitions, with 64px on compact screens.</p></article><article><b>GRID GAP</b><h3>20–36px</h3><p>Use clamp(20px, 2.25vw, 36px) between cards, project tiles and gallery items.</p></article><article><b>COMPONENT GAP</b><h3>12–24px</h3><p>Use clamp(12px, 1.5vw, 24px) for closely related controls and component details.</p></article></div>
+      <div class="closing-note"><span class="closing-mark">K</span><p>Use these tokens before adding page-specific spacing. Keep motion between 200–500ms, use it to clarify state, and respect reduced-motion preferences.</p></div>
     </section>
     </main>
     {{FRAMER_FOOTER}}

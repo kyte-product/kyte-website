@@ -1,0 +1,74 @@
+/* Shared layout tokens and responsive guardrails for every Framer route. */
+:root{
+  --kyte-frame-max:1920px;
+  --kyte-content-max:1600px;
+  --kyte-page-gutter:clamp(22px,5vw,96px);
+  --kyte-section-space:clamp(64px,7vw,120px);
+  --kyte-grid-gap:clamp(20px,2.25vw,36px);
+  --kyte-component-gap:clamp(12px,1.5vw,24px);
+}
+
+html,body{max-width:100%;overflow-x:clip}
+#main{width:100%;max-width:var(--kyte-frame-max);margin-inline:auto;overflow-x:clip}
+#main [data-framer-name="Main"]{width:100%;max-width:100%;min-width:0;box-sizing:border-box}
+#main [data-framer-name="Section Container"]{
+  width:100%;
+  max-width:calc(var(--kyte-content-max) + 2 * var(--kyte-page-gutter));
+  min-width:0;
+  margin-inline:auto;
+  box-sizing:border-box;
+}
+#main [data-framer-name="Section Container"]>[data-framer-name]:not([data-framer-name="Sections"]),
+#main [data-framer-name="Sections"]>[data-framer-name]{
+  width:100%;
+  max-width:100%;
+  min-width:0;
+  padding-inline:var(--kyte-page-gutter)!important;
+  padding-block:var(--kyte-section-space)!important;
+  margin-inline:auto;
+  box-sizing:border-box;
+}
+
+#main [data-framer-name="Cards"],
+#main [data-framer-name="Gallery"],
+#main [data-framer-name="Gallery Section"],
+#main [data-framer-name="Image Gallery Section"],
+#main [data-framer-name="Projects Section"],
+#main [data-framer-name="Review List"],
+#main [data-framer-name="Lists"],
+#main [data-framer-name="Process Section"]{gap:var(--kyte-grid-gap)!important}
+#main [data-framer-name="Card Content"],
+#main [data-framer-name="Stack"],
+#main [data-framer-name="Content"],
+#main [data-framer-name="Work Content"],
+#main [data-framer-name="Service Card"]{gap:var(--kyte-component-gap)!important}
+
+@media(max-width:809.98px){
+  :root{
+    --kyte-page-gutter:22px;
+    --kyte-section-space:64px;
+    --kyte-grid-gap:20px;
+    --kyte-component-gap:14px;
+  }
+  #main,#main [data-framer-name="Main"],#main [data-framer-name="Section Container"]{
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+  }
+  #main [data-framer-name="Section Container"] *{
+    min-width:0!important;
+    max-width:100%;
+    box-sizing:border-box;
+  }
+  #main [data-framer-name="Section Container"] img,
+  #main [data-framer-name="Section Container"] video,
+  #main [data-framer-name="Section Container"] svg,
+  #main [data-framer-name="Section Container"] canvas{max-width:100%}
+  #main [data-framer-name="Section Container"] h1,
+  #main [data-framer-name="Section Container"] h2,
+  #main [data-framer-name="Section Container"] h3,
+  #main [data-framer-name="Section Container"] [data-framer-component-type="RichTextContainer"]{
+    max-width:100%!important;
+    white-space:normal!important;
+  }
+}
