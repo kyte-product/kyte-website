@@ -3,6 +3,8 @@
   --kyte-frame-max:1920px;
   --kyte-content-max:1600px;
   --kyte-page-gutter:clamp(22px,5vw,96px);
+  --kyte-rail-inset:clamp(16px,2.25vw,43px);
+  --kyte-surface-bleed:max(0px,calc(var(--kyte-page-gutter) - var(--kyte-rail-inset)));
   --kyte-section-space:clamp(64px,7vw,120px);
   --kyte-grid-gap:clamp(20px,2.25vw,36px);
   --kyte-component-gap:clamp(12px,1.5vw,24px);
@@ -57,6 +59,30 @@ html,body{max-width:100%;overflow-x:clip}
   padding-inline:var(--kyte-page-gutter)!important;
   margin-inline:auto;
   box-sizing:border-box;
+}
+
+@media(min-width:1400px){
+  /* At desktop widths, pull backgrounds out of the content gutter to the rails. */
+  #main [data-framer-name="Section Container"],
+  #main [data-framer-name="Sections"]>[data-framer-name]{
+    width:calc(100% + 2 * var(--kyte-surface-bleed))!important;
+    max-width:none!important;
+    margin-inline:calc(-1 * var(--kyte-surface-bleed))!important;
+  }
+  #main [data-framer-name="Section Container"]>[data-framer-name]:not([data-framer-name="Sections"]),
+  #main [data-framer-name="Sections"]>[data-framer-name]{
+    padding-inline:calc(var(--kyte-page-gutter) + var(--kyte-surface-bleed))!important;
+  }
+  #main div[animspeed]:has(>canvas){
+    width:calc(100% + 2 * var(--kyte-surface-bleed))!important;
+    max-width:none!important;
+    margin-inline:calc(-1 * var(--kyte-surface-bleed))!important;
+  }
+  #main .framer-sdizq.framer-1od4e9j{
+    width:calc(100% - 2 * var(--kyte-rail-inset))!important;
+    max-width:none!important;
+    margin-inline:auto!important;
+  }
 }
 
 #main [data-framer-name="Cards"],
